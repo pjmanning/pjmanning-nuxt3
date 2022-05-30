@@ -1,42 +1,30 @@
-# Nuxt 3 Minimal Starter
+# My Portfolio - [@pj_manning](https://twitter.com/pj_manning)
 
-Look at the [nuxt 3 documentation](https://v3.nuxtjs.org) to learn more.
+<img src="assets/images/home/working.jpg" alt="PJ Manning" width="120" height="120" style="border-radius: 100%;" />
 
-## Setup
+## Live Site URL
 
-Make sure to install the dependencies:
+[https://pjmanning.dev](https://pjmanning.dev)
 
-```bash
-# yarn
-yarn install
+## Features
 
-# npm
-npm install
+- Built with [Nuxt](https://nuxtjs.org/)
+- Clean and minimal design
+- Blog with markdown content for posts
+- Sitemap in XML
 
-# pnpm
-pnpm install --shamefully-hoist
-```
+## Installation
 
-## Development Server
+1. Clone the repo: `git clone https://github.com/pjmanning/pjmanning-nuxt3.git`
+2. `cd` into directory
+3. `yarn install`
+4. `yarn dev` to start a local dev server at `http://localhost:3000`
 
-Start the development server on http://localhost:3000
+## Notes
 
-```bash
-npm run dev
-```
+- If you want to deploy your own site for free - check out [Netlify](https://netlify.com)
+- Tweet at me your creation ;) [@pj_manning](https://pj_manning.dev)
 
-## Production
+## Contact
 
-Build the application for production:
-
-```bash
-npm run build
-```
-
-Locally preview production build:
-
-```bash
-npm run preview
-```
-
-Checkout the [deployment documentation](https://v3.nuxtjs.org/guide/deploy/presets) for more information.
+PJ Manning - [@pj_manning](https://twitter.com/pj_manning)
