@@ -1,0 +1,2 @@
+User-agent: *
+Sitemap: https://pjmanning.dev/sitemap.xml
