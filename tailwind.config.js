@@ -1,5 +1,5 @@
 module.exports = {
-  content: [],
+  content: ['content/**/*.{md,yml,json,json5,csv}'],
   theme: {
     extend: {
       colors: {
@@ -17,5 +17,5 @@ module.exports = {
       mono: ['Menlo', 'Monaco', 'Consolas', '"Liberation Mono"', '"Courier New"', 'monospace'],
     },
   },
-  plugins: [],
+  plugins: [require('@tailwindcss/forms'), require('@tailwindcss/typography'), require('@tailwindcss/aspect-ratio')],
 }
