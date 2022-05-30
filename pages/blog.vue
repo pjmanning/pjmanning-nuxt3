@@ -10,6 +10,12 @@ const postAuthor = (authorId) => {
     return author.id === authorId
   })
 }
+
+const formattedDate = (postDate) => {
+  const date = postDate.toDateString()
+  const formattedDate = date.substring(3)
+  return formattedDate
+}
 </script>
 
 <template>
@@ -53,7 +59,7 @@ const postAuthor = (authorId) => {
                   </p>
                   <div class="flex text-sm leading-5 text-gray-500">
                     <time :datetime="post.createdAt">
-                      {{ post.createdAt }}
+                      {{ formattedDate(new Date(post.createdAt)) }}
                       <!-- {{ $moment(post.createdAt).format('MMMM Do YYYY') }} -->
                     </time>
                   </div>
