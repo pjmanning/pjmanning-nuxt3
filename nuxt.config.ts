@@ -31,44 +31,4 @@ export default defineNuxtConfig({
   plausible: {
     domain: 'pjmanning.dev',
   },
-
-  netlify: {
-    redirects: [
-      {
-        from: '/travel-insurance',
-        to: '/digital-nomad-travel-insurance',
-        status: 301,
-      },
-      {
-        from: '/10-surf-jobs-that-will-let-you-travel-and-surf-your-entire-life',
-        to: '/travel-and-surf-jobs',
-        status: 301,
-      },
-      {
-        from: '/digital-nomad-health-insurance',
-        to: '/digital-nomad-insurance',
-        status: 301,
-      },
-      {
-        from: '/articles',
-        to: '/digital-nomad-blog',
-        status: 301,
-      },
-      {
-        from: '/phil-manning',
-        to: 'https://pjmanning.dev',
-        status: 301,
-      },
-      {
-        from: '/pj-manning',
-        to: 'https://pjmanning.dev',
-        status: 301,
-      },
-      {
-        from: '/phil-manning-digital-nomad',
-        to: '/pj-manning-digital-nomad',
-        status: 301,
-      },
-    ],
-  },
 })
