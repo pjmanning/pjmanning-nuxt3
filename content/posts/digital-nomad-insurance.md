@@ -8,6 +8,15 @@ tags: digital nomad
 author: pjmanning
 ---
 
+\*\*\***UPDATE MAY 2022**\*\*\*
+<a href="https://safetywing.com/nomad-health?referenceID=traveldeveloper&utm_source=traveldeveloper&utm_medium=Ambassador" target="_blank">
+<img src="https://firebasestorage.googleapis.com/v0/b/travel-developer.appspot.com/o/posts%2Fdigital-nomad-insurance%2FSafetyWing-Universe-B.jpeg?alt=media&token=6f6a7ff0-05ba-4569-a42d-ebeebb95d964">
+</a>
+
+My favorite travel insurance company, [SafetyWing](https://safetywing.com/nomad-health?referenceID=traveldeveloper&utm_source=traveldeveloper&utm_medium=Ambassador), came out with their own [Remote Health](https://safetywing.com/nomad-health?referenceID=traveldeveloper&utm_source=traveldeveloper&utm_medium=Ambassador) program which is for global primary health insurance. While the other competitors in this post are still all pretty good - SafetyWing would be my primary choice as they're so tailored to the digital nomad lifestyle market. Currently, you can only access the Remote Health program through a company but their personal **Nomad Health** offering will be available soon! Stay tuned!
+
+---
+
 I'd like to tell you this is THE source, the ABSOLUTE **complete** guide to digital nomad insurance...but I have to be honest...
 
 The more I research digital nomad health insurance - the more I get confused.
@@ -34,9 +43,9 @@ This plan covers long-term (1+ year) worldwide medical insurance for both indivi
 
 There are also some other standard features you can play with like...
 
--   Annually renewable medical coverage
--   Deductible options from $100 to $25,000
--   Maximum limit options from $1,000,000 to $8,000,000
+- Annually renewable medical coverage
+- Deductible options from $100 to $25,000
+- Maximum limit options from $1,000,000 to $8,000,000
 
 The biggest downside to the [IMG Global](https://www.imglobal.com/) plan is you have to have a physical address in your country of residence when applying.  If you're looking for nomad insurance like me that can be a bit tough as I regularly don't know where I'm going to be every few months.
 
@@ -72,17 +81,17 @@ I think you can expect top quality coverage with Allianz and feel comfortable wi
 
 Clements also has an expat specific healthcare plan with a lot of benefits...
 
--   Maximum benefit of \$5 million per lifetime
--   Ability to visit any provider or clinic – no need to worry whether your provider is in-network
--   Emergency medical evacuation at no additional cost
--   Free coverage for first two children under age 10 if both parents are insured
--   Hospitalization, physician, surgeon, specialist fees, and prescription drugs
--   Multiple Payment Options: annual, semi-annual, quarterly, and a 9 installment plan\*
--   Online or mobile claims submission - no need to mail forms, meaning faster turnaround.
--   Guarantee of Payment to more than 6,000 providers worldwide, meaning providers are paid directly rather than paying and waiting for reimbursement.
--   Preventative care including routine physicals, colonoscopies, mammograms, gynecological visits, and prostate exams
--   Vision included; dental and orthodontia benefits available
--   Optional coverage for accidental death & dismemberment and war & terrorism - related injuries
+- Maximum benefit of \$5 million per lifetime
+- Ability to visit any provider or clinic – no need to worry whether your provider is in-network
+- Emergency medical evacuation at no additional cost
+- Free coverage for first two children under age 10 if both parents are insured
+- Hospitalization, physician, surgeon, specialist fees, and prescription drugs
+- Multiple Payment Options: annual, semi-annual, quarterly, and a 9 installment plan\*
+- Online or mobile claims submission - no need to mail forms, meaning faster turnaround.
+- Guarantee of Payment to more than 6,000 providers worldwide, meaning providers are paid directly rather than paying and waiting for reimbursement.
+- Preventative care including routine physicals, colonoscopies, mammograms, gynecological visits, and prostate exams
+- Vision included; dental and orthodontia benefits available
+- Optional coverage for accidental death & dismemberment and war & terrorism - related injuries
 
 Their plans can include US and Canadian coverage if chosen as well.
 

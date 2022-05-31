@@ -74,8 +74,15 @@ useHead({
       </h1>
     </div>
 
+    <!-- <div class=""> -->
+    <div class="safetywing-price-widget" data-safetywingaffiliateid="traveldeveloper" data-scale="1.0"></div>
+    <!-- </div> -->
+
     <ContentRenderer v-if="article" class="prose mx-auto my-12 px-4 sm:my-24 lg:prose-lg xl:prose-xl" :value="article" />
 
     <Author v-if="author" :author="author" />
+    <Head>
+      <Script src="https://storage.googleapis.com/safetywing-static/widget/safetywing-price-widget.js"></Script>
+    </Head>
   </div>
 </template>
