@@ -25,9 +25,10 @@ const formattedDate = (postDate) => {
         <div class="h-1/3 bg-white sm:h-2/3"></div>
       </div>
       <div class="relative mx-auto max-w-7xl">
-        <div class="text-center">
-          <h2 class="text-3xl font-extrabold leading-9 tracking-tight text-gray-900 sm:text-4xl sm:leading-10">News & Updates</h2>
-          <p class="mx-auto mt-3 max-w-2xl text-xl leading-7 text-gray-500 sm:mt-4">Projects I'm working on, where I'm working & more...</p>
+        <div>
+          <h2 class="text-3xl font-extrabold leading-9 tracking-tight text-gray-900 sm:text-3xl sm:leading-10">News & Updates</h2>
+          <p class="mt-3 max-w-2xl text-lg leading-7 text-gray-500 sm:mt-4">Projects I'm working on, where I'm working & more...</p>
+          <div class="mt-12 h-px w-16 rounded bg-gray-300"></div>
         </div>
         <div class="mx-auto my-12 grid max-w-lg gap-5 lg:max-w-none lg:grid-cols-3">
           <NuxtLink v-for="post in sortedPosts" :key="post.title" :to="post.slug" class="flex transform flex-col overflow-hidden rounded-lg shadow-lg transition-all duration-300 ease-in-out hover:-translate-y-2 hover:shadow-2xl">

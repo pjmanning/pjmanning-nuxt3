@@ -4,13 +4,14 @@
       <div class="h-1/3 bg-white sm:h-2/3"></div>
     </div>
     <div class="relative mx-auto max-w-7xl">
-      <div class="text-center">
-        <h1 class="text-3xl font-extrabold leading-9 tracking-tight text-gray-900 sm:text-4xl sm:leading-10">Digital Nomad Jobs</h1>
-        <p class="mx-auto mt-3 max-w-4xl text-xl leading-7 text-gray-500 sm:mt-4">Coming soon...</p>
-        <p class="mx-auto mt-3 text-lg font-semibold leading-7 text-gray-500 sm:mt-4">
+      <div>
+        <h1 class="text-3xl font-extrabold leading-9 tracking-tight text-gray-900 sm:text-3xl sm:leading-10">Digital Nomad Jobs</h1>
+        <p class="mt-3 max-w-4xl text-lg leading-7 text-gray-500 sm:mt-4">Coming soon...</p>
+        <p class="mt-3 text-lg font-semibold leading-7 text-gray-500 sm:mt-4">
           Follow me for updates
           <a href="https://twitter.com/pj_manning" target="_blank" class="text-secondary">@pj_manning</a>
         </p>
+        <div class="mt-12 h-px w-16 rounded bg-gray-300"></div>
         <!-- <p class="max-w-4xl mx-auto mt-3 text-lg font-semibold leading-7 text-gray-500 sm:mt-4">Updated: January 7, 2021</p> -->
       </div>
       <div class="mx-auto mt-12 max-w-5xl">

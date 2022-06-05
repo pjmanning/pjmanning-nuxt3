@@ -4,10 +4,11 @@
       <div class="h-1/3 bg-white sm:h-2/3"></div>
     </div>
     <div class="relative mx-auto max-w-7xl">
-      <div class="text-center">
-        <h2 class="text-3xl font-extrabold leading-9 tracking-tight text-gray-900 sm:text-4xl sm:leading-10">The Complete Travel Developer Toolkit</h2>
-        <p class="mx-auto mt-3 max-w-4xl text-xl leading-7 text-gray-500 sm:mt-4">As a remote developer, there are hundreds of software options to choose from...and it seems like there's a new one added every day! As a tech-junkie, I've tried and tested nearly every product or service that could possibly be the best tool for any given task.</p>
-        <p class="mx-auto mt-3 max-w-4xl text-lg font-semibold leading-7 text-gray-500 sm:mt-4">Updated: November 27, 2017</p>
+      <div>
+        <h2 class="text-3xl font-extrabold leading-9 tracking-tight text-gray-900 sm:text-3xl sm:leading-10">The Complete Travel Developer Toolkit</h2>
+        <p class="mt-3 max-w-4xl text-lg leading-7 text-gray-500 sm:mt-4">As a remote developer, there are hundreds of software options to choose from...and it seems like there's a new one added every day! As a tech-junkie, I've tried and tested nearly every product or service that could possibly be the best tool for any given task.</p>
+        <p class="mt-3 max-w-4xl text-lg font-semibold leading-7 text-gray-500 sm:mt-4">Updated: November 27, 2017</p>
+        <div class="mt-12 h-px w-16 rounded bg-gray-300"></div>
       </div>
       <div class="mx-auto mt-12 max-w-5xl">
         <h2 class="mb-6 text-center text-3xl">Top Choices</h2>
