@@ -4,7 +4,7 @@ const { data: projects } = await useAsyncData('graveyard', () => queryContent('/
 
 <template>
   <div class="mb-8">
-    <div class="relative px-4 pt-16 sm:px-6 lg:px-8">
+    <div class="relative pt-16 sm:px-6 lg:px-8">
       <div class="absolute inset-0">
         <div class="h-1/3 bg-white sm:h-2/3"></div>
       </div>
@@ -18,7 +18,7 @@ const { data: projects } = await useAsyncData('graveyard', () => queryContent('/
         <div class="flex flex-col">
           <div class="-my-2 mt-12 overflow-x-auto sm:-mx-6 lg:-mx-8">
             <div class="inline-block min-w-full py-2 align-middle sm:px-6 lg:px-8">
-              <div class="overflow-hidden border-b border-gray-200 shadow sm:rounded-lg">
+              <div class="overflow-hidden border-b border-gray-200 sm:rounded-lg">
                 <table class="min-w-full divide-y divide-gray-200">
                   <thead class="bg-gray-50">
                     <tr>

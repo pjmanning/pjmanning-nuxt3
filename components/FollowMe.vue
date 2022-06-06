@@ -3,10 +3,13 @@
 <template>
   <div class="rounded-xl bg-sky-800 text-white">
     <div class="mx-auto max-w-3xl py-16 pb-8 text-center text-xl">
-      <h2 class="mb-8 text-3xl font-semibold">Follow || Connect</h2>
+      <h2 class="mb-8 text-3xl font-semibold">Follow Along</h2>
 
       <div class="mx-auto mb-8 w-4/5">
-        <p class="mb-8 text-lg text-neutral-200 sm:text-xl">If you're interested in following along while I build my projects in public or want to collaborate - follow and contact me on twitter</p>
+        <p class="mb-8 text-lg text-neutral-200 sm:text-xl">
+          Want to watch as I build in public? <br />
+          Connect with me on Twitter
+        </p>
 
         <a href="https://twitter.com/pj_manning" target="_blank" class="inline-flex items-center rounded px-12 py-4" style="background-color: #1da1f2">
           <svg width="20" height="17" fill="white" xmlns="http://www.w3.org/2000/svg">
