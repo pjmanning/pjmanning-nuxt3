@@ -3,26 +3,22 @@ import { ref } from 'vue'
 import { Dialog, DialogPanel, TransitionChild, TransitionRoot } from '@headlessui/vue'
 import { ExternalLinkIcon, LinkIcon, AtSymbolIcon, HomeIcon, DesktopComputerIcon, RssIcon, BookOpenIcon, TrashIcon, MapIcon, MenuIcon, SearchCircleIcon, SpeakerphoneIcon, UserGroupIcon, XIcon } from '@heroicons/vue/outline'
 
-definePageMeta({
-  layout: 'new',
-})
-
 const navigation = [
   { name: 'Home', href: '/', icon: HomeIcon, external: false },
-  { name: 'Work', href: '/work', icon: DesktopComputerIcon, external: false },
+  { name: 'Freelance Work', href: '/work', icon: DesktopComputerIcon, external: false },
   { name: 'Blog', href: '/blog', icon: BookOpenIcon, external: false },
   { name: 'Newsletter', href: 'https://www.getrevue.co/profile/pjmanning', icon: RssIcon, external: true },
   { name: 'Contact', href: '/contact', icon: AtSymbolIcon, external: false },
 ]
 
 const projects = [
-  { name: 'Glassy', href: 'https://glassy.so', img: 'glassy-logo-whitebg.png' },
-  { name: 'SwellPirate', href: 'https://swellpirate.com', img: 'swellpirate-logo.png' },
-  { name: 'Binndle', href: 'https://binndle.com/', img: 'binndle-logo.png' },
-  { name: 'Animali', href: 'https://animali.life/', img: 'animali-logo.png' },
-  { name: '#startsmall', href: 'https://startsmall.llc/', img: 'startsmall-logo.jpg' },
-  { name: "Nana's Recipes", href: 'https://apps.apple.com/app/nana-scoppetuolos-recipes/id1012100193?l=id', img: 'nanasrecipes-logo.png' },
-  { name: 'DeFacebookMe', href: 'https://defacebookme.com', img: 'defacebookme.svg' },
+  { name: 'Glassy', href: 'https://glassy.so', img: '~/assets/images/home/glassy-logo-whitebg.png' },
+  //   { name: 'SwellPirate', href: 'https://swellpirate.com', img: 'swellpirate-logo.png' },
+  //   { name: 'Binndle', href: 'https://binndle.com/', img: 'binndle-logo.png' },
+  //   { name: 'Animali', href: 'https://animali.life/', img: 'animali-logo.png' },
+  //   { name: '#startsmall', href: 'https://startsmall.llc/', img: 'startsmall-logo.jpg' },
+  //   { name: "Nana's Recipes", href: 'https://apps.apple.com/app/nana-scoppetuolos-recipes/id1012100193?l=id', img: 'nanasrecipes-logo.png' },
+  //   { name: 'DeFacebookMe', href: 'https://defacebookme.com', img: 'defacebookme.svg' },
 ]
 
 const socials = [
@@ -58,7 +54,7 @@ const sidebarOpen = ref(false)
               </TransitionChild>
               <div class="h-0 flex-1 overflow-y-auto pt-5 pb-4">
                 <div class="flex flex-shrink-0 items-center px-4">
-                  <NuxtLink to="/" class="flex items-center !bg-white font-marker text-3xl uppercase text-gray-800 hover:text-gray-600">PJ&nbsp;MANNING</NuxtLink>
+                  <NuxtLink to="/" class="flex items-center !bg-white font-marker text-3xl uppercase text-gray-800 hover:text-gray-600" @click.native="sidebarOpen = false">PJ&nbsp;MANNING</NuxtLink>
                 </div>
                 <nav aria-label="Sidebar" class="mt-5">
                   <div class="space-y-1 px-2">
@@ -133,7 +129,7 @@ const sidebarOpen = ref(false)
                 </NuxtLink>
                 <p class="!mt-6 !mb-2 ml-2 text-xs font-bold uppercase text-gray-400">Projects</p>
                 <a v-for="item in projects" :key="item.name" :href="item.href" target="_blank" :class="[item.current ? 'bg-gray-200 text-gray-900' : 'text-gray-600 hover:bg-gray-50 hover:text-gray-900', 'group flex items-center rounded-md px-2 py-2 text-sm font-medium']">
-                  <img :src="`../assets/images/home/${item.img}`" :alt="item.name" class="mr-3 h-6 w-6 rounded-sm" />
+                  <img :src="item.img" :alt="item.name" class="mr-3 h-6 w-6 rounded-sm" />
                   {{ item.name }}
                   <ExternalLinkIcon class="ml-auto h-5 w-5" />
                 </a>
