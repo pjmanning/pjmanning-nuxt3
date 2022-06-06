@@ -71,7 +71,7 @@ const image = computed(() => {
                     </NuxtLink>
                     <p class="!mt-6 !mb-2 ml-2 text-xs font-bold uppercase text-gray-400">Projects</p>
                     <a v-for="item in projects" :key="item.name" :href="item.href" target="_blank" :class="[item.current ? 'bg-gray-200 text-gray-900' : 'text-gray-600 hover:bg-gray-50 hover:text-gray-900', 'group flex items-center rounded-md px-2 py-2 text-sm font-medium']">
-                      <img :src="`../assets/images/home/${item.img}`" :alt="item.name" class="mr-3 h-6 w-6 rounded-sm" />
+                      <img :src="`/projects/${item.img}`" :alt="item.name" class="mr-3 h-6 w-6 rounded-sm" />
                       {{ item.name }}
                       <ExternalLinkIcon class="ml-auto h-5 w-5" />
                     </a>
@@ -81,7 +81,7 @@ const image = computed(() => {
                     </NuxtLink>
                     <p class="!mt-6 !mb-2 ml-2 text-xs font-bold uppercase text-gray-400">Online</p>
                     <a v-for="item in socials" :key="item.name" :href="item.href" target="_blank" :class="[item.current ? 'bg-gray-200 text-gray-900' : 'text-gray-600 hover:bg-gray-50 hover:text-gray-900', 'group flex items-center rounded-md px-2 py-2 text-sm font-medium']">
-                      <img :src="`../assets/images/social/${item.img}`" :alt="item.name" class="mr-4 h-auto w-5 rounded-sm contrast-[.25]" />
+                      <img :src="`/socials/${item.img}`" :alt="item.name" class="mr-4 h-auto w-5 rounded-sm contrast-[.25]" />
                       {{ item.name }}
                       <svg xmlns="http://www.w3.org/2000/svg" class="ml-auto h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
                         <path d="M11 3a1 1 0 100 2h2.586l-6.293 6.293a1 1 0 101.414 1.414L15 6.414V9a1 1 0 102 0V4a1 1 0 00-1-1h-5z" />
