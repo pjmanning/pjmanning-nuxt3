@@ -13,7 +13,7 @@ import { LocationMarkerIcon } from '@heroicons/vue/outline'
         <div class="flex justify-between">
           <div class="pr-8">
             <h2 class="text-3xl font-extrabold leading-9 tracking-tight text-gray-900 sm:text-3xl sm:leading-10">Hey, I'm PJ. I&nbsp;build&nbsp;stuff.</h2>
-            <p class="mt-3 max-w-2xl text-lg leading-7 text-sky-600 sm:mt-4">and spend a lot of time in the water...</p>
+            <p class="mt-3 max-w-2xl text-lg font-medium leading-7 text-sky-600 sm:mt-4">and spend a lot of time in the water...</p>
             <div class="mt-12 h-px w-16 rounded bg-gray-300"></div>
           </div>
 
@@ -119,7 +119,7 @@ import { LocationMarkerIcon } from '@heroicons/vue/outline'
             <a target="_blank" rel="noopener noreferrer" href="https://jet.com" class="group flex items-center space-x-4">
               <strong class="flex-none font-medium group-hover:text-blue-600 group-hover:underline">Jet.com</strong>
               <span class="w-full shrink border-t border-dashed border-gray-300"></span>
-              <span class="flex-none">Superm<span class="font-bold">analyst</span></span>
+              <span class="flex-none">Financial Analyst</span>
               <span class="flex-none font-mono">2015—17</span>
             </a>
             <a target="_blank" rel="noopener noreferrer" href="#" class="group flex items-center space-x-4">

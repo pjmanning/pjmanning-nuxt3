@@ -4,7 +4,7 @@ const { data: projects } = await useAsyncData('graveyard', () => queryContent('/
 
 <template>
   <div class="mb-8">
-    <div class="relative pt-16 sm:px-6 lg:px-8">
+    <div class="relative pt-4 sm:px-6 md:pt-12 lg:px-8">
       <div class="absolute inset-0">
         <div class="h-1/3 bg-white sm:h-2/3"></div>
       </div>
