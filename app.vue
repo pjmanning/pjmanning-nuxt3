@@ -1,7 +1,7 @@
 <script setup>
 import { ref } from 'vue'
 import { Dialog, DialogPanel, TransitionChild, TransitionRoot } from '@headlessui/vue'
-import { ExternalLinkIcon, LinkIcon, AtSymbolIcon, HomeIcon, DesktopComputerIcon, RssIcon, BookOpenIcon, TrashIcon, MapIcon, MenuIcon, SearchCircleIcon, SpeakerphoneIcon, UserGroupIcon, XIcon } from '@heroicons/vue/outline'
+import { ExternalLinkIcon, AtSymbolIcon, HomeIcon, DesktopComputerIcon, RssIcon, BookOpenIcon, TrashIcon, MenuIcon, XIcon } from '@heroicons/vue/outline'
 
 const navigation = [
   { name: 'Home', href: '/', icon: HomeIcon, external: false },

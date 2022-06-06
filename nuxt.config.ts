@@ -28,7 +28,7 @@ export default defineNuxtConfig({
         {
           hid: 'twitter:description',
           name: 'twitter:description',
-          content: 'Coffee ☕️, Surf 🏄🏽‍♂️, Work 💻, Wine 🍷',
+          content: 'Coffee ☕️ Surf 🏄🏽‍♂️ Work 💻 Wine 🍷',
         },
         {
           hid: 'twitter:image',
@@ -61,7 +61,7 @@ export default defineNuxtConfig({
         {
           hid: 'og:description',
           property: 'og:description',
-          content: 'Coffee ☕️, Surf 🏄🏽‍♂️, Work 💻, Wine 🍷',
+          content: 'Coffee ☕️ Surf 🏄🏽‍♂️ Work 💻 Wine 🍷',
         },
         {
           hid: 'og:site_name',
