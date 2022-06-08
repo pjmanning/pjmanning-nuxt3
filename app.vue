@@ -31,10 +31,6 @@ const socials = [
 ]
 
 const sidebarOpen = ref(false)
-
-const image = computed(() => {
-  return
-})
 </script>
 
 <template>
