@@ -61,7 +61,7 @@ import { LocationMarkerIcon } from '@heroicons/vue/outline'
                 <div class="flex-1 text-lg sm:text-xl">Over the past 10 years, I've worked with 30+ businesses creating websites and mobile applications. I have a unique perspective having worked with the fastest growing e-commerce website in the world (Jet.com), to tracking whale sharks in the Maldives.</div>
               </div>
 
-              <div class="mt-6 h-48 sm:h-96">
+              <div class="mt-6 h-48 sm:h-[27rem]">
                 <iframe class="left-0 top-0 h-full w-full rounded-xl border-0" src="https://www.youtube.com/embed/FlAYtA1exRA" style="border: 0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
               </div>
             </div>
