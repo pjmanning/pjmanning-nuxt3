@@ -26,10 +26,10 @@ import { LocationMarkerIcon } from '@heroicons/vue/outline'
         <div class="mx-auto max-w-3xl">
           <!-- blurb  -->
           <div class="mt-12 sm:mx-auto">
-            <p class="text-lg sm:text-xl">I believe the next wave of great of advances in human society will come from combining <strong>technology</strong>, <strong>community</strong>, and <strong>sustainability</strong>. I'm currently working on a few independent and open-sourced projects based on these pillars.</p>
-
+            <p class="mb-4 text-lg sm:text-xl">I am an indie software developer, UX designer, and SEO consultant. Most of my work is open source and publicly available on <a href="https://github.com/pjmanning" target="_blank" class="text-blue-600">Github</a>. You can follow me on <a href="https://twitter.com/pj_manning" target="_blank" class="text-blue-600">Twitter</a> where I mostly tweet about building side projects.</p>
+            <p class="mb-4 text-lg sm:text-xl">I've been working remotely around the world since 2012 - mainly due to a surf addiction.</p>
             <div class="flex items-center justify-between">
-              <img src="~/assets/images/home/whaleSharkPhoto.jpg" alt="whale shark" class="mt-6 w-full rounded-xl" />
+              <img src="~/assets/images/home/whaleSharkPhoto.jpg" alt="whale shark" class="w-full rounded-xl" />
             </div>
           </div>
           <!-- end blurb  -->
