@@ -18,7 +18,7 @@ import { LocationMarkerIcon } from '@heroicons/vue/outline'
           </div>
 
           <div class="mt-8 sm:mt-0">
-            <img src="~/assets/images/home/working.jpg" alt="hero" class="mx-auto -mt-8 h-auto rounded-full sm:mx-0 sm:-mt-6 sm:h-32" />
+            <img src="~/assets/images/home/working.jpg" alt="hero" class="mx-auto -mt-8 h-auto rounded-full shadow-sm sm:mx-0 sm:-mt-6 sm:h-32" />
           </div>
         </div>
         <!-- end header  -->
@@ -26,10 +26,7 @@ import { LocationMarkerIcon } from '@heroicons/vue/outline'
         <div class="mx-auto max-w-3xl">
           <!-- blurb  -->
           <div class="mt-12 sm:mx-auto">
-            <p class="text-lg sm:text-xl">
-              I believe the next wave of great of advances in human society will come from combining
-              <strong>technology</strong>, <strong>community</strong>, and <strong>sustainability</strong>. I'm currently working on a few independent and open-sourced projects based on these pillars.
-            </p>
+            <p class="text-lg sm:text-xl">I believe the next wave of great of advances in human society will come from combining <strong>technology</strong>, <strong>community</strong>, and <strong>sustainability</strong>. I'm currently working on a few independent and open-sourced projects based on these pillars.</p>
 
             <div class="flex items-center justify-between">
               <img src="~/assets/images/home/whaleSharkPhoto.jpg" alt="whale shark" class="mt-6 w-full rounded-xl" />
@@ -92,6 +89,63 @@ import { LocationMarkerIcon } from '@heroicons/vue/outline'
           <!-- end map -->
 
           <!-- divider  -->
+          <div id="divider" class="relative mx-auto mt-12 mb-4">
+            <div class="absolute inset-0 flex items-center" aria-hidden="true">
+              <div class="w-full border-t border-gray-300"></div>
+            </div>
+            <div class="relative flex justify-center">
+              <span class="bg-white px-3 text-lg font-medium text-gray-900"> Expertise </span>
+            </div>
+          </div>
+          <!-- end divider  -->
+
+          <!-- expertise  -->
+          <div class="bg-white">
+            <div class="grid grid-cols-2 gap-0.5 md:grid-cols-3 lg:mt-8">
+              <a href="https://vuejs.org" target="_blank" class="group relative col-span-1 cursor-pointer flex-col justify-center bg-gray-50 py-8 px-8 text-center transition hover:bg-gray-100">
+                <img class="mx-auto max-h-12" src="~/assets/images/tools/vue-vector.svg" alt="VueJS" />
+                <p class="absolute bottom-2 left-0 hidden w-full text-sm font-medium text-gray-600 group-hover:block">VueJS</p>
+              </a>
+              <a href="https://nuxtjs.org" target="_blank" class="group relative col-span-1 cursor-pointer flex-col justify-center bg-gray-50 py-8 px-8 text-center transition hover:bg-gray-100">
+                <img class="mx-auto max-h-14" src="~/assets/images/tools/nuxt.png" alt="NuxtJS" />
+                <p class="absolute bottom-2 left-0 hidden w-full text-sm font-medium text-gray-600 group-hover:block">NuxtJS</p>
+              </a>
+              <a href="https://tailwindcss.com" target="_blank" class="group relative col-span-1 cursor-pointer flex-col justify-center bg-gray-50 py-8 px-8 text-center transition hover:bg-gray-100">
+                <img class="mx-auto max-h-12" src="~/assets/images/tools/tailwind.png" alt="TailwindCSS" />
+                <p class="absolute bottom-2 left-0 hidden w-full text-sm font-medium text-gray-600 group-hover:block">TailwindCSS</p>
+              </a>
+              <a href="https://figma.com" target="_blank" class="group relative col-span-1 cursor-pointer flex-col justify-center bg-gray-50 py-8 px-8 text-center transition hover:bg-gray-100">
+                <img class="mx-auto max-h-12" src="~/assets/images/tools/figma.png" alt="Figma" />
+                <p class="absolute bottom-2 left-0 hidden w-full text-sm font-medium text-gray-600 group-hover:block">Figma</p>
+              </a>
+              <a href="https://firebase.google.com" target="_blank" class="group relative col-span-1 cursor-pointer flex-col justify-center bg-gray-50 py-8 px-8 text-center transition hover:bg-gray-100">
+                <img class="mx-auto max-h-12" src="~/assets/images/tools/firebase.png" alt="Firebase" />
+                <p class="absolute bottom-2 left-0 hidden w-full text-sm font-medium text-gray-600 group-hover:block">Firebase</p>
+              </a>
+              <a href="https://supabase.com" target="_blank" class="group relative col-span-1 cursor-pointer flex-col justify-center bg-gray-50 py-8 px-8 text-center transition hover:bg-gray-100">
+                <img class="mx-auto max-h-12" src="~/assets/images/tools/supabase.png" alt="Supabase" />
+                <p class="absolute bottom-2 left-0 hidden w-full text-sm font-medium text-gray-600 group-hover:block">Supabase</p>
+              </a>
+              <a href="https://developer.apple.com/swift/" target="_blank" class="group relative col-span-1 cursor-pointer flex-col justify-center bg-gray-50 py-8 px-8 text-center transition hover:bg-gray-100">
+                <img class="mx-auto max-h-12" src="~/assets/images/tools/swift.png" alt="Swift" />
+                <p class="absolute bottom-2 left-0 hidden w-full text-sm font-medium text-gray-600 group-hover:block">Swift</p>
+              </a>
+              <a href="https://shopify.com" target="_blank" class="group relative col-span-1 cursor-pointer flex-col justify-center bg-gray-50 py-8 px-8 text-center transition hover:bg-gray-100">
+                <img class="mx-auto max-h-12" src="~/assets/images/tools/shopify.svg" alt="Shopify" />
+                <p class="absolute bottom-2 left-0 hidden w-full text-sm font-medium text-gray-600 group-hover:block">Shopify</p>
+              </a>
+              <a href="https://stripe.com" target="_blank" class="group relative col-span-1 cursor-pointer flex-col justify-center bg-gray-50 py-8 px-8 text-center transition hover:bg-gray-100">
+                <img class="mx-auto max-h-12" src="~/assets/images/tools/stripe.png" alt="Stripe" />
+                <p class="absolute bottom-2 left-0 hidden w-full text-sm font-medium text-gray-600 group-hover:block">Stripe</p>
+              </a>
+              <!-- Sanity  -->
+              <!-- Netlify  -->
+              <!-- Vercel -->
+            </div>
+          </div>
+          <!-- end expertise  -->
+
+          <!-- divider  -->
           <div id="divider" class="relative mx-auto mt-12">
             <div class="absolute inset-0 flex items-center" aria-hidden="true">
               <div class="w-full border-t border-gray-300"></div>
@@ -105,30 +159,30 @@ import { LocationMarkerIcon } from '@heroicons/vue/outline'
           <!-- work  -->
           <div class="mt-6 mb-20">
             <div class="flex flex-col space-y-3">
-              <a target="_blank" rel="noopener noreferrer" href="https://wilshire.com" class="group flex items-center space-x-4">
+              <NuxtLink to="/work/wilshire" class="group flex items-center space-x-4">
                 <strong class="flex-none font-medium group-hover:text-blue-600 group-hover:underline">Wilshire</strong>
                 <span class="w-full shrink border-t border-dashed border-gray-300"></span>
                 <span class="flex-none">Software Engineer</span>
                 <span class="flex-none font-mono">2022—&nbsp;&nbsp;</span>
-              </a>
-              <NuxtLink to="/" class="group flex items-center space-x-4">
+              </NuxtLink>
+              <NuxtLink to="/work" class="group flex items-center space-x-4">
                 <strong class="flex-none font-medium group-hover:text-blue-600 group-hover:underline">doodDevelopments</strong>
                 <span class="w-full shrink border-t border-dashed border-gray-300"></span>
                 <span class="flex-none">Founder</span>
                 <span class="flex-none font-mono">2013—&nbsp;&nbsp;</span>
               </NuxtLink>
-              <a target="_blank" rel="noopener noreferrer" href="https://jet.com" class="group flex items-center space-x-4">
+              <NuxtLink to="/work/jet" class="group flex items-center space-x-4">
                 <strong class="flex-none font-medium group-hover:text-blue-600 group-hover:underline">Jet.com</strong>
                 <span class="w-full shrink border-t border-dashed border-gray-300"></span>
                 <span class="flex-none">Financial Analyst</span>
                 <span class="flex-none font-mono">2015—17</span>
-              </a>
-              <a target="_blank" rel="noopener noreferrer" href="#" class="group flex items-center space-x-4">
+              </NuxtLink>
+              <NuxtLink to="/work/lifeguard" class="group flex items-center space-x-4">
                 <strong class="flex-none font-medium group-hover:text-blue-600 group-hover:underline">Surf Lifesaving</strong>
                 <span class="w-full shrink border-t border-dashed border-gray-300"></span>
                 <span class="flex-none">Head Lifeguard</span>
                 <span class="flex-none font-mono">2005—13</span>
-              </a>
+              </NuxtLink>
             </div>
           </div>
           <!-- end work -->

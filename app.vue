@@ -5,7 +5,7 @@ import { ExternalLinkIcon, AtSymbolIcon, HomeIcon, DesktopComputerIcon, RssIcon,
 
 const navigation = [
   { name: 'Home', href: '/', icon: HomeIcon, external: false },
-  { name: 'Freelance Work', href: '/work', icon: DesktopComputerIcon, external: false },
+  { name: 'Work', href: '/work', icon: DesktopComputerIcon, external: false },
   { name: 'Blog', href: '/blog', icon: BookOpenIcon, external: false },
   { name: 'Newsletter', href: 'https://www.getrevue.co/profile/pjmanning', icon: RssIcon, external: true },
   { name: 'Contact', href: '/contact', icon: AtSymbolIcon, external: false },
