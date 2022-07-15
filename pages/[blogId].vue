@@ -6,6 +6,7 @@ const { data: article } = await useAsyncData(`posts-${path}`, () => {
     .where({ _path: `/posts${path}` })
     .findOne()
 })
+
 const { data: author } = await useAsyncData(`author-${article.value.author}`, () => {
   return queryContent().where({ id: article.value.author }).findOne()
 })
