@@ -1,5 +1,4 @@
 <script setup>
-import { ref } from 'vue'
 import { Dialog, DialogPanel, TransitionChild, TransitionRoot } from '@headlessui/vue'
 import { ExternalLinkIcon, AtSymbolIcon, HomeIcon, DesktopComputerIcon, RssIcon, BookOpenIcon, TrashIcon, MenuIcon, XIcon } from '@heroicons/vue/outline'
 
