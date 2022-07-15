@@ -1,5 +1,5 @@
 <script setup>
-import { Dialog, DialogPanel, TransitionChild, TransitionRoot } from '@headlessui/vue'
+// import { Dialog, DialogPanel, TransitionChild, TransitionRoot } from '@headlessui/vue'
 import { ExternalLinkIcon, AtSymbolIcon, HomeIcon, DesktopComputerIcon, RssIcon, BookOpenIcon, TrashIcon, MenuIcon, XIcon } from '@heroicons/vue/outline'
 
 const navigation = [
@@ -34,7 +34,7 @@ const sidebarOpen = ref(false)
 
 <template>
   <div class="flex h-screen">
-    <TransitionRoot as="template" :show="sidebarOpen">
+    <!-- <TransitionRoot as="template" :show="sidebarOpen">
       <Dialog as="div" class="relative z-40 lg:hidden" @close="sidebarOpen = false">
         <TransitionChild as="template" enter="transition-opacity ease-linear duration-300" enter-from="opacity-0" enter-to="opacity-100" leave="transition-opacity ease-linear duration-300" leave-from="opacity-100" leave-to="opacity-0">
           <div class="fixed inset-0 bg-gray-600 bg-opacity-75" />
@@ -101,12 +101,10 @@ const sidebarOpen = ref(false)
               </div>
             </DialogPanel>
           </TransitionChild>
-          <div class="w-14 flex-shrink-0" aria-hidden="true">
-            <!-- Force sidebar to shrink to fit close icon -->
-          </div>
+          <div class="w-14 flex-shrink-0" aria-hidden="true"></div>
         </div>
       </Dialog>
-    </TransitionRoot>
+    </TransitionRoot> -->
 
     <!-- Static sidebar for desktop -->
     <div class="hidden lg:flex lg:flex-shrink-0">
