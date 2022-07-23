@@ -11,9 +11,7 @@
     "@nuxtjs/tailwindcss": "^5.1.2",
     "@vueuse/core": "^8.5.0",
     "@vueuse/nuxt": "^8.5.0",
-    "nuxt": "3.0.0-rc.5"
-  },
-  "dependencies": {
+    "nuxt": "3.0.0-rc.5",
     "@headlessui/vue": "^1.6.4",
     "@heroicons/vue": "^1.0.6",
     "@tailwindcss/aspect-ratio": "^0.4.0",

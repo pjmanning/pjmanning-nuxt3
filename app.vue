@@ -1,11 +1,14 @@
 <script setup>
 import { ref } from 'vue'
 import { Dialog, DialogPanel, TransitionChild, TransitionRoot } from '@headlessui/vue'
-import { ExternalLinkIcon, AtSymbolIcon, HomeIcon, DesktopComputerIcon, RssIcon, BookOpenIcon, TrashIcon, MenuIcon, XIcon } from '@heroicons/vue/outline'
+import { TemplateIcon, ShoppingCartIcon, ExternalLinkIcon, AtSymbolIcon, AcademicCapIcon, HomeIcon, DesktopComputerIcon, RssIcon, BookOpenIcon, TrashIcon, MenuIcon, XIcon } from '@heroicons/vue/outline'
 
 const navigation = [
   { name: 'Home', href: '/', icon: HomeIcon, external: false },
   { name: 'Work', href: '/work', icon: DesktopComputerIcon, external: false },
+  { name: 'Courses', href: '/courses', icon: AcademicCapIcon, external: false },
+  { name: 'Products', href: '/products', icon: ShoppingCartIcon, external: false },
+  { name: 'Templates', href: '/templates', icon: TemplateIcon, external: false },
   { name: 'Blog', href: '/blog', icon: BookOpenIcon, external: false },
   { name: 'Newsletter', href: 'https://www.getrevue.co/profile/pjmanning', icon: RssIcon, external: true },
   { name: 'Contact', href: '/contact', icon: AtSymbolIcon, external: false },
