@@ -12,6 +12,8 @@
           <p class="mt-3 max-w-2xl text-lg leading-7 text-gray-500 sm:mt-4">Learn design and code, by building complete, real apps with the best tools...</p>
           <div class="mt-12 h-px w-16 rounded bg-gray-300"></div>
         </div>
+
+        <div class="mt-12">Coming soon...</div>
       </div>
     </div>
   </div>

@@ -1,5 +1,5 @@
 <script setup>
-const { data: projects } = await useAsyncData('graveyard', () => queryContent('/graveyard').sort({ started: 1 }).find())
+const { data: ideas } = await useAsyncData('ideas', () => queryContent('/ideas').find())
 </script>
 
 <template>
@@ -10,8 +10,8 @@ const { data: projects } = await useAsyncData('graveyard', () => queryContent('/
       </div>
       <div class="relative mx-auto max-w-7xl">
         <div>
-          <h2 class="text-3xl font-extrabold leading-9 tracking-tight text-gray-900 sm:text-3xl sm:leading-10">Project Graveyard</h2>
-          <p class="mt-3 max-w-2xl text-lg leading-7 text-gray-500 sm:mt-4">The shit that didn't quite work out... 💀 RIP</p>
+          <h2 class="text-3xl font-extrabold leading-9 tracking-tight text-gray-900 sm:text-3xl sm:leading-10">Future Ideas</h2>
+          <p class="mt-3 max-w-2xl text-lg leading-7 text-gray-500 sm:mt-4">Contact me if you want to get involved or start your own project!</p>
           <div class="mt-12 h-px w-16 rounded bg-gray-300"></div>
         </div>
 
@@ -22,18 +22,16 @@ const { data: projects } = await useAsyncData('graveyard', () => queryContent('/
                 <table class="min-w-full divide-y divide-gray-200">
                   <thead class="bg-gray-50">
                     <tr>
-                      <th scope="col" class="px-6 py-3 text-left text-xs font-medium uppercase tracking-wider text-gray-500">Project</th>
+                      <th scope="col" class="px-6 py-3 text-left text-xs font-medium uppercase tracking-wider text-gray-500">Idea</th>
                       <th scope="col" class="px-6 py-3 text-left text-xs font-medium uppercase tracking-wider text-gray-500">Type</th>
                       <th scope="col" class="px-6 py-3 text-left text-xs font-medium uppercase tracking-wider text-gray-500">Description</th>
-                      <th scope="col" class="px-6 py-3 text-left text-xs font-medium uppercase tracking-wider text-gray-500">Started</th>
                     </tr>
                   </thead>
                   <tbody>
-                    <tr v-for="project in projects" :key="project.title" class="odd:bg-white even:bg-gray-50">
+                    <tr v-for="project in ideas" :key="project.title" class="odd:bg-white even:bg-gray-50">
                       <td class="whitespace-nowrap px-6 py-4 text-sm font-medium text-gray-900">{{ project.title }}</td>
                       <td class="whitespace-nowrap px-6 py-4 text-sm capitalize text-indigo-600">{{ project.type }}</td>
-                      <td class="whitespace-nowrap px-6 py-4 text-sm text-gray-500">{{ project.tagline }}</td>
-                      <td class="whitespace-nowrap px-6 py-4 text-sm text-gray-500">{{ project.started }}</td>
+                      <td class="whitespace-nowrap px-6 py-4 text-sm text-gray-500">{{ project.description }}</td>
                     </tr>
                   </tbody>
                 </table>
