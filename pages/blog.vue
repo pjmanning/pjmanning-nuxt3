@@ -1,6 +1,7 @@
 <script setup>
 const { data: posts } = await useAsyncData('posts', () => queryContent('/posts').find())
 const { data: authors } = await useAsyncData('authors', () => queryContent('/authors').find())
+
 const sortedPosts = computed(() => {
   return posts.value.sort((a, b) => new Date(b.createdAt) - new Date(a.createdAt))
 })
