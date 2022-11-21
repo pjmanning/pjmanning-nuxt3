@@ -174,7 +174,7 @@ import { LocationMarkerIcon } from '@heroicons/vue/outline'
               <NuxtLink to="/work/jet" class="group flex items-center space-x-4">
                 <strong class="flex-none font-medium group-hover:text-blue-600 group-hover:underline">Jet.com</strong>
                 <span class="w-full shrink border-t border-dashed border-gray-300"></span>
-                <span class="flex-none">Financial Analyst</span>
+                <span class="flex-none">Analyst</span>
                 <span class="flex-none font-mono">2015—17</span>
               </NuxtLink>
               <NuxtLink to="/work/lifeguard" class="group flex items-center space-x-4">

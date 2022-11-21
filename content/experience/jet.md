@@ -1,6 +1,6 @@
 ---
 company: Jet.com
-position: Financial Analyst
+position: Analyst
 started: 2015
 website: https://jet.com
 logo:
