@@ -4,7 +4,7 @@ import { defineNuxtConfig } from 'nuxt'
 export default defineNuxtConfig({
   app: {
     head: {
-      title: 'PJ Manning',
+      title: 'PJ Manning | Developer && UX Designer',
       meta: [
         { charset: 'utf-8' },
         {
@@ -51,7 +51,7 @@ export default defineNuxtConfig({
         {
           hid: 'og:title',
           property: 'og:title',
-          content: 'PJManning | Designer && Developer',
+          content: 'PJManning | Developer && UX Designer',
         },
         {
           hid: 'og:image',
