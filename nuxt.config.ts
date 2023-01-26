@@ -1,7 +1,10 @@
-import { defineNuxtConfig } from 'nuxt'
-
-// https://v3.nuxtjs.org/api/configuration/nuxt.config
+// https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
+  ssr: false,
+  modules: ['@nuxt/content', '@nuxtjs/tailwindcss', '@vueuse/nuxt', '@nuxtjs/plausible'],
+  plausible: {
+    domain: 'pjmanning.dev',
+  },
   app: {
     head: {
       title: 'PJ Manning | Developer && UX Designer',
@@ -82,10 +85,5 @@ export default defineNuxtConfig({
         },
       ],
     },
-  },
-  modules: ['@nuxt/content', '@nuxtjs/tailwindcss', '@vueuse/nuxt', 'vue-plausible'],
-
-  plausible: {
-    domain: 'pjmanning.dev',
   },
 })
