@@ -2,13 +2,13 @@
 const { path } = useRoute()
 
 const { data: article } = await useAsyncData(`posts-${path}`, () => {
-  return queryContent()
+  return queryContent('/posts')
     .where({ _path: `/posts${path}` })
     .findOne()
 })
 
 const { data: author } = await useAsyncData(`author-${article.value.author}`, () => {
-  return queryContent().where({ id: article.value.author }).findOne()
+  return queryContent('/authors').where({ id: article.value.author }).findOne()
 })
 
 useHead({
