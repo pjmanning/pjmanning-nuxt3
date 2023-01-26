@@ -10,7 +10,7 @@ const navigation = [
   //   { name: 'Templates', href: '/templates', icon: TemplateIcon, external: false },
   //   { name: 'Products', href: '/products', icon: ShoppingCartIcon, external: false },
   { name: 'Blog', href: '/blog', icon: BookOpenIcon, external: false },
-  { name: 'Newsletter', href: 'https://www.getrevue.co/profile/pjmanning', icon: RssIcon, external: true },
+  { name: 'Newsletter', href: 'https://pjmanning.beehiiv.com/subscribe', icon: RssIcon, external: true },
   { name: 'Contact', href: '/contact', icon: AtSymbolIcon, external: false },
 ]
 
