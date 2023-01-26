@@ -18,19 +18,19 @@
             <div>
               <label for="name" class="block text-sm font-medium text-gray-700">Name</label>
               <div class="mt-1">
-                <input id="name" type="text" name="name" placeholder="Elon Musk" required autocomplete="given-name" class="block w-full rounded-md border border-gray-300 px-4 py-3 shadow-sm focus:border-sky-500 focus:ring-sky-500" />
+                <input id="name" type="text" name="name" placeholder="Elon" required autocomplete="given-name" class="block w-full rounded-md border border-gray-300 px-4 py-3 shadow-sm placeholder:text-gray-400 focus:border-sky-500 focus:ring-sky-500" />
               </div>
             </div>
             <div>
               <label for="email" class="block text-sm font-medium text-gray-700">Email</label>
               <div class="mt-1">
-                <input id="email" type="email" name="_replyto" placeholder="elon@spacex.com" required autocomplete="email" class="block w-full rounded-md border border-gray-300 px-4 py-3 shadow-sm focus:border-sky-500 focus:ring-sky-500" />
+                <input id="email" type="email" name="_replyto" placeholder="elon@spacex.com" required autocomplete="email" class="block w-full rounded-md border border-gray-300 px-4 py-3 shadow-sm placeholder:text-gray-400 focus:border-sky-500 focus:ring-sky-500" />
               </div>
             </div>
             <div class="sm:col-span-2">
               <label for="message" class="block text-sm font-medium text-gray-700">Message</label>
               <div class="mt-1">
-                <textarea id="message" name="message" rows="5" required placeholder="Can you build me a base on Mars..." class="block w-full rounded-md border border-gray-300 px-4 py-3 shadow-sm focus:border-sky-500 focus:ring-sky-500"></textarea>
+                <textarea id="message" name="message" rows="5" required placeholder="Can you build me a base on Mars?..." class="block w-full rounded-md border border-gray-300 px-4 py-3 shadow-sm placeholder:text-gray-400 focus:border-sky-500 focus:ring-sky-500"></textarea>
               </div>
             </div>
 
