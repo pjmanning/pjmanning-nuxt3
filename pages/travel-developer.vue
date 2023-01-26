@@ -64,10 +64,10 @@ const q13 = ref(false)
               <div class="flex flex-shrink-0 flex-grow items-center lg:flex-grow-0">
                 <div class="flex w-full items-center justify-between md:w-auto">
                   <nuxt-link to="/" aria-label="Home">
-                    <img class="h-12 w-auto" src="~/assets/images/td-logo-circle.png" alt="travel developer" />
+                    <nuxt-img format="webp" class="h-12 w-auto" src="/images/td-logo-circle.png" alt="travel developer" />
                   </nuxt-link>
                   <div class="-mr-2 flex hidden items-center">
-                    <button id="main-menu" class="focus:outline-none inline-flex items-center justify-center rounded-md p-2 text-gray-400 transition duration-150 ease-in-out hover:bg-gray-100 hover:text-gray-500 focus:bg-gray-100 focus:text-gray-500" type="button" aria-label="Main menu" aria-haspopup="true">
+                    <button id="main-menu" class="inline-flex items-center justify-center rounded-md p-2 text-gray-400 transition duration-150 ease-in-out hover:bg-gray-100 hover:text-gray-500 focus:bg-gray-100 focus:text-gray-500 focus:outline-none" type="button" aria-label="Main menu" aria-haspopup="true">
                       <svg class="h-6 w-6" stroke="currentColor" fill="none" viewBox="0 0 24 24">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
                       </svg>
@@ -162,10 +162,10 @@ const q13 = ref(false)
               <p class="mt-3 text-base text-gray-500 sm:mx-auto sm:mt-5 sm:max-w-xl sm:text-lg md:mt-5 md:text-xl lg:mx-0">Learn design, development, SEO, sales, marketing, how to find remote jobs, and other tips on working remotely</p>
               <div class="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
                 <div class="rounded-md shadow">
-                  <a class="focus:outline-none flex w-full items-center justify-center rounded-md border border-transparent bg-secondary px-8 py-3 text-base font-medium leading-6 text-white transition duration-150 ease-in-out hover:bg-primary md:py-4 md:px-10 md:text-lg" href="https://www.udemy.com/the-complete-travel-developer-course-become-a-digital-nomad/" target="_blank">Enroll Now</a>
+                  <a class="flex w-full items-center justify-center rounded-md border border-transparent bg-secondary px-8 py-3 text-base font-medium leading-6 text-white transition duration-150 ease-in-out hover:bg-primary focus:outline-none md:py-4 md:px-10 md:text-lg" href="https://www.udemy.com/the-complete-travel-developer-course-become-a-digital-nomad/" target="_blank">Enroll Now</a>
                 </div>
                 <div class="mt-3 sm:mt-0 sm:ml-3">
-                  <a class="focus:outline-none flex w-full items-center justify-center rounded-md border border-transparent bg-blue-100 px-8 py-3 text-base font-medium leading-6 text-primary transition duration-150 ease-in-out hover:bg-blue-50 hover:text-secondary md:py-4 md:px-10 md:text-lg" href="#video-section">Learn More</a>
+                  <a class="flex w-full items-center justify-center rounded-md border border-transparent bg-blue-100 px-8 py-3 text-base font-medium leading-6 text-primary transition duration-150 ease-in-out hover:bg-blue-50 hover:text-secondary focus:outline-none md:py-4 md:px-10 md:text-lg" href="#video-section">Learn More</a>
                 </div>
               </div>
             </div>
@@ -173,7 +173,7 @@ const q13 = ref(false)
         </div>
       </div>
       <div class="lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2">
-        <img class="h-56 w-full object-cover sm:h-72 md:h-96 lg:h-full lg:w-full" src="~/assets/images/mountainlaptopoverlook.jpg" alt />
+        <nuxt-img format="webp" class="h-56 w-full object-cover sm:h-72 md:h-96 lg:h-full lg:w-full" src="/images/mountainlaptopoverlook.jpg" alt />
       </div>
     </div>
 
@@ -182,19 +182,19 @@ const q13 = ref(false)
       <div class="mx-auto max-w-screen-xl px-4 py-12 sm:px-6 lg:px-8">
         <div class="grid grid-cols-2 gap-8 md:grid-cols-6 lg:grid-cols-5">
           <div class="col-span-1 flex justify-center md:col-span-2 lg:col-span-1">
-            <img class="h-12" src="~/assets/images/Discovery-Channel-logo2-1030x361.png" alt="discovery" />
+            <nuxt-img format="webp" class="h-12" src="/images/Discovery-Channel-logo2-1030x361.png" alt="discovery" />
           </div>
           <div class="col-span-1 flex justify-center md:col-span-2 lg:col-span-1">
-            <img class="h-12" src="~/assets/images/the-inertia-logo-removebg-preview.png" alt="inertia" />
+            <nuxt-img format="webp" class="h-12" src="/images/the-inertia-logo-removebg-preview.png" alt="inertia" />
           </div>
           <div class="col-span-1 flex justify-center md:col-span-2 lg:col-span-1">
-            <img class="h-12" src="~/assets/images/apple-logo.png" alt="apple" />
+            <nuxt-img format="webp" class="h-12" src="/images/apple-logo.png" alt="apple" />
           </div>
           <div class="col-span-1 flex justify-center md:col-span-3 lg:col-span-1">
-            <img class="h-12" src="~/assets/images/surfoffice70.png" alt="surf office" />
+            <nuxt-img format="webp" class="h-12" src="/images/surfoffice70.png" alt="surf office" />
           </div>
           <div class="col-span-2 flex justify-center md:col-span-3 lg:col-span-1">
-            <img class="h-12" src="~/assets/images/andco70.png" alt="andco" />
+            <nuxt-img format="webp" class="h-12" src="/images/andco70.png" alt="andco" />
           </div>
         </div>
       </div>
@@ -229,7 +229,7 @@ const q13 = ref(false)
           <ul class="space-y-4 sm:grid sm:grid-cols-2 sm:gap-6 sm:space-y-0 lg:grid-cols-3 lg:gap-8">
             <li class="rounded-lg bg-white px-6 py-10 text-center shadow-2xl xl:px-10 xl:text-left">
               <div class="space-y-6 xl:space-y-10">
-                <img class="mx-auto" src="~/assets/images/web_training.png" alt="html" />
+                <nuxt-img format="webp" class="mx-auto" src="/images/web_training.png" alt="html" />
                 <div class="space-y-2 text-center">
                   <div class="space-y-4 leading-6">
                     <h4 class="text-2xl font-semibold text-primary">HTML, CSS, JS</h4>
@@ -241,7 +241,7 @@ const q13 = ref(false)
 
             <li class="rounded-lg bg-white px-6 py-10 text-center shadow-2xl xl:px-10 xl:text-left">
               <div class="space-y-6 xl:space-y-10">
-                <img class="mx-auto" src="~/assets/images/wordpress-logo-notext-rgb.png" alt="wordpress" />
+                <nuxt-img format="webp" class="mx-auto" src="/images/wordpress-logo-notext-rgb.png" alt="wordpress" />
                 <div class="space-y-2 text-center">
                   <div class="space-y-4 leading-6">
                     <h4 class="text-2xl font-semibold text-primary">Using Wordpress</h4>
@@ -253,7 +253,7 @@ const q13 = ref(false)
 
             <li class="rounded-lg bg-white px-6 py-10 text-center shadow-2xl xl:px-10 xl:text-left">
               <div class="space-y-6 xl:space-y-10">
-                <img class="mx-auto" src="~/assets/images/sketch3.png" alt="html" />
+                <nuxt-img format="webp" class="mx-auto" src="/images/sketch3.png" alt="html" />
                 <div class="space-y-2 text-center">
                   <div class="space-y-4 leading-6">
                     <h4 class="text-2xl font-semibold text-primary">Learn Sketch</h4>
@@ -265,7 +265,7 @@ const q13 = ref(false)
 
             <li class="rounded-lg bg-white px-6 py-10 text-center shadow-2xl xl:px-10 xl:text-left">
               <div class="space-y-6 xl:space-y-10">
-                <img class="mx-auto" src="~/assets/images/search.png" alt="html" />
+                <nuxt-img format="webp" class="mx-auto" src="/images/search.png" alt="html" />
                 <div class="space-y-2 text-center">
                   <div class="space-y-4 leading-6">
                     <h4 class="text-2xl font-semibold text-primary">Search Engine Optimization</h4>
@@ -277,7 +277,7 @@ const q13 = ref(false)
 
             <li class="rounded-lg bg-white px-6 py-10 text-center shadow-2xl xl:px-10 xl:text-left">
               <div class="space-y-6 xl:space-y-10">
-                <img class="mx-auto" src="~/assets/images/pie-chart.png" alt="wordpress" />
+                <nuxt-img format="webp" class="mx-auto" src="/images/pie-chart.png" alt="wordpress" />
                 <div class="space-y-2 text-center">
                   <div class="space-y-4 leading-6">
                     <h4 class="text-2xl font-semibold text-primary">Marketing Strategy</h4>
@@ -289,7 +289,7 @@ const q13 = ref(false)
 
             <li class="rounded-lg bg-white px-6 py-10 text-center shadow-2xl xl:px-10 xl:text-left">
               <div class="space-y-6 xl:space-y-10">
-                <img class="mx-auto" src="~/assets/images/phone-call.png" alt="html" />
+                <nuxt-img format="webp" class="mx-auto" src="/images/phone-call.png" alt="html" />
                 <div class="space-y-2 text-center">
                   <div class="space-y-4 leading-6">
                     <h4 class="text-2xl font-semibold text-primary">Selling Your Service</h4>
@@ -301,7 +301,7 @@ const q13 = ref(false)
 
             <li class="rounded-lg bg-white px-6 py-10 text-center shadow-2xl xl:px-10 xl:text-left">
               <div class="space-y-6 xl:space-y-10">
-                <img class="mx-auto" src="~/assets/images/diagram.png" alt="html" />
+                <nuxt-img format="webp" class="mx-auto" src="/images/diagram.png" alt="html" />
                 <div class="space-y-2 text-center">
                   <div class="space-y-4 leading-6">
                     <h4 class="text-2xl font-semibold text-primary">Project Management</h4>
@@ -313,7 +313,7 @@ const q13 = ref(false)
 
             <li class="rounded-lg bg-white px-6 py-10 text-center shadow-2xl xl:px-10 xl:text-left">
               <div class="space-y-6 xl:space-y-10">
-                <img class="mx-auto" src="~/assets/images/dollar-bill-1.png" alt="wordpress" />
+                <nuxt-img format="webp" class="mx-auto" src="/images/dollar-bill-1.png" alt="wordpress" />
                 <div class="space-y-2 text-center">
                   <div class="space-y-4 leading-6">
                     <h4 class="text-2xl font-semibold text-primary">Billing & Finance</h4>
@@ -325,7 +325,7 @@ const q13 = ref(false)
 
             <li class="rounded-lg bg-white px-6 py-10 text-center shadow-2xl xl:px-10 xl:text-left">
               <div class="space-y-6 xl:space-y-10">
-                <img class="mx-auto" src="~/assets/images/luggage.png" alt="html" />
+                <nuxt-img format="webp" class="mx-auto" src="/images/luggage.png" alt="html" />
                 <div class="space-y-2 text-center">
                   <div class="space-y-4 leading-6">
                     <h4 class="text-2xl font-semibold text-primary">Working Abroad Hacks</h4>
@@ -343,7 +343,7 @@ const q13 = ref(false)
             </div>
             <div class="px-4 py-4 sm:px-6">
               <span class="inline-flex rounded-md shadow-xl">
-                <a class="focus:outline-none inline-flex items-center rounded-md border border-transparent bg-white px-8 py-4 text-2xl font-medium uppercase leading-6 text-secondary transition duration-150 ease-in-out hover:opacity-75" href="https://www.udemy.com/the-complete-travel-developer-course-become-a-digital-nomad/" target="_blank"> Enroll Today! </a>
+                <a class="inline-flex items-center rounded-md border border-transparent bg-white px-8 py-4 text-2xl font-medium uppercase leading-6 text-secondary transition duration-150 ease-in-out hover:opacity-75 focus:outline-none" href="https://www.udemy.com/the-complete-travel-developer-course-become-a-digital-nomad/" target="_blank"> Enroll Today! </a>
               </span>
             </div>
           </div>
@@ -374,7 +374,7 @@ const q13 = ref(false)
             <div class="relative mx-auto max-w-prose text-base lg:max-w-none">
               <figure>
                 <a href="https://twitter.com/pj_manning" target="_blank" class="pb-7/12 relative lg:pb-0">
-                  <img class="absolute inset-0 h-full w-full rounded-lg object-cover object-center shadow-lg lg:static lg:ml-24 lg:-mt-8 lg:h-auto lg:w-3/5" src="~/assets/images/meMedium.jpg" alt="pj manning" />
+                  <nuxt-img format="webp" class="absolute inset-0 h-full w-full rounded-lg object-cover object-center shadow-lg lg:static lg:ml-24 lg:-mt-8 lg:h-auto lg:w-3/5" src="/images/meMedium.jpg" alt="pjmanning" />
                 </a>
               </figure>
             </div>
@@ -538,7 +538,7 @@ const q13 = ref(false)
               </defs>
               <rect width="784" height="404" fill="url(#ca9667ae-9f92-4be7-abcb-9e3d727f2941)" />
             </svg>
-            <img class="relative mx-auto" width="490" src="~/assets/images/codingcomputer.jpg" alt />
+            <nuxt-img format="webp" class="relative mx-auto" width="490" src="/images/codingcomputer.jpg" alt />
           </div>
         </div>
         <svg class="absolute right-full hidden translate-x-1/2 translate-y-12 transform lg:block" width="404" height="784" fill="none" viewBox="0 0 404 784">
@@ -644,7 +644,7 @@ const q13 = ref(false)
                 </defs>
                 <rect width="784" height="404" fill="url(#e80155a9-dfde-425a-b5ea-1f6fadd20131)" />
               </svg>
-              <img class="relative mx-auto" width="490" src="~/assets/images/busydeskhands.jpg" alt />
+              <nuxt-img format="webp" class="relative mx-auto" width="490" src="/images/busydeskhands.jpg" alt />
             </div>
           </div>
         </div>
@@ -781,7 +781,7 @@ const q13 = ref(false)
               </defs>
               <rect width="784" height="404" fill="url(#ca9667ae-9f92-4be7-abcb-9e3d727f2941)" />
             </svg>
-            <img class="relative mx-auto" width="490" src="~/assets/images/map-and-laptop-440.jpg" alt />
+            <nuxt-img format="webp" class="relative mx-auto" width="490" src="/images/map-and-laptop-440.jpg" alt />
           </div>
         </div>
       </div>
@@ -793,7 +793,7 @@ const q13 = ref(false)
       <div class="mx-auto max-w-3xl">
         <!-- Content goes here -->
         <p class="text-center text-3xl italic md:text-5xl">Plus $300+ worth of freebies!</p>
-        <img class="my-8" src="~/assets/images/discounts.png" alt="discounts" />
+        <nuxt-img format="webp" class="my-8" src="/images/discounts.png" alt="discounts" />
         <p class="text-center text-sm">*not all discounts are available if purchasing course through Udemy.com</p>
       </div>
     </div>
@@ -865,7 +865,7 @@ const q13 = ref(false)
                 </div>
                 <div class="mt-6">
                   <div class="rounded-md shadow">
-                    <a class="focus:outline-none focus:shadow-outline flex items-center justify-center rounded-md border border-transparent bg-secondary px-5 py-3 text-base font-medium uppercase leading-6 text-white transition duration-150 ease-in-out hover:bg-primary" href="https://www.udemy.com/the-complete-travel-developer-course-become-a-digital-nomad/" target="_blank">Get Access</a>
+                    <a class="focus:shadow-outline flex items-center justify-center rounded-md border border-transparent bg-secondary px-5 py-3 text-base font-medium uppercase leading-6 text-white transition duration-150 ease-in-out hover:bg-primary focus:outline-none" href="https://www.udemy.com/the-complete-travel-developer-course-become-a-digital-nomad/" target="_blank">Get Access</a>
                   </div>
                 </div>
                 <div class="mt-4 text-sm leading-5">
@@ -886,7 +886,7 @@ const q13 = ref(false)
             <dl>
               <div>
                 <dt class="text-lg leading-7">
-                  <button class="focus:outline-none flex w-full items-start justify-between text-left text-gray-400 focus:text-gray-900" @click="q1 = !q1">
+                  <button class="flex w-full items-start justify-between text-left text-gray-400 focus:text-gray-900 focus:outline-none" @click="q1 = !q1">
                     <span class="font-medium text-gray-900"> What is The Complete Travel Developer Course? </span>
                     <span class="ml-6 flex h-7 items-center">
                       <svg class="h-6 w-6 transform" :class="q1 ? 'rotate-180' : 'rotate-0'" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -902,7 +902,7 @@ const q13 = ref(false)
               <div class="mt-6 border-t border-gray-200 pt-6">
                 <div>
                   <dt class="text-lg leading-7">
-                    <button class="focus:outline-none flex w-full items-start justify-between text-left text-gray-400 focus:text-gray-900" @click="q2 = !q2">
+                    <button class="flex w-full items-start justify-between text-left text-gray-400 focus:text-gray-900 focus:outline-none" @click="q2 = !q2">
                       <span class="font-medium text-gray-900">Who is this course for?</span>
                       <span class="ml-6 flex h-7 items-center">
                         <svg class="h-6 w-6 transform" :class="q2 ? 'rotate-180' : 'rotate-0'" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -919,7 +919,7 @@ const q13 = ref(false)
               <div class="mt-6 border-t border-gray-200 pt-6">
                 <div>
                   <dt class="text-lg leading-7">
-                    <button class="focus:outline-none flex w-full items-start justify-between text-left text-gray-400 focus:text-gray-900" @click="q3 = !q3">
+                    <button class="flex w-full items-start justify-between text-left text-gray-400 focus:text-gray-900 focus:outline-none" @click="q3 = !q3">
                       <span class="font-medium text-gray-900">How long is the course?</span>
                       <span class="ml-6 flex h-7 items-center">
                         <svg class="h-6 w-6 transform" :class="q3 ? 'rotate-180' : 'rotate-0'" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -936,7 +936,7 @@ const q13 = ref(false)
               <div class="mt-6 border-t border-gray-200 pt-6">
                 <div>
                   <dt class="text-lg leading-7">
-                    <button class="focus:outline-none flex w-full items-start justify-between text-left text-gray-400 focus:text-gray-900" @click="q4 = !q4">
+                    <button class="flex w-full items-start justify-between text-left text-gray-400 focus:text-gray-900 focus:outline-none" @click="q4 = !q4">
                       <span class="font-medium text-gray-900"> Do I need prior design, development, or traveling experience? </span>
                       <span class="ml-6 flex h-7 items-center">
                         <svg class="h-6 w-6 transform" :class="q4 ? 'rotate-180' : 'rotate-0'" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -953,7 +953,7 @@ const q13 = ref(false)
               <div class="mt-6 border-t border-gray-200 pt-6">
                 <div>
                   <dt class="text-lg leading-7">
-                    <button class="focus:outline-none flex w-full items-start justify-between text-left text-gray-400 focus:text-gray-900" @click="q5 = !q5">
+                    <button class="flex w-full items-start justify-between text-left text-gray-400 focus:text-gray-900 focus:outline-none" @click="q5 = !q5">
                       <span class="font-medium text-gray-900"> How often do you update the course? </span>
                       <span class="ml-6 flex h-7 items-center">
                         <svg class="h-6 w-6 transform" :class="q5 ? 'rotate-180' : 'rotate-0'" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -970,7 +970,7 @@ const q13 = ref(false)
               <div class="mt-6 border-t border-gray-200 pt-6">
                 <div>
                   <dt class="text-lg leading-7">
-                    <button class="focus:outline-none flex w-full items-start justify-between text-left text-gray-400 focus:text-gray-900" @click="q6 = !q6">
+                    <button class="flex w-full items-start justify-between text-left text-gray-400 focus:text-gray-900 focus:outline-none" @click="q6 = !q6">
                       <span class="font-medium text-gray-900"> How long can I access the course material? </span>
                       <span class="ml-6 flex h-7 items-center">
                         <svg class="h-6 w-6 transform" :class="q6 ? 'rotate-180' : 'rotate-0'" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -987,7 +987,7 @@ const q13 = ref(false)
               <div class="mt-6 border-t border-gray-200 pt-6">
                 <div>
                   <dt class="text-lg leading-7">
-                    <button class="focus:outline-none flex w-full items-start justify-between text-left text-gray-400 focus:text-gray-900" @click="q7 = !q7">
+                    <button class="flex w-full items-start justify-between text-left text-gray-400 focus:text-gray-900 focus:outline-none" @click="q7 = !q7">
                       <span class="font-medium text-gray-900"> How quickly can I apply the knowledge learned in this course? </span>
                       <span class="ml-6 flex h-7 items-center">
                         <svg class="h-6 w-6 transform" :class="q7 ? 'rotate-180' : 'rotate-0'" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -1004,7 +1004,7 @@ const q13 = ref(false)
               <div class="mt-6 border-t border-gray-200 pt-6">
                 <div>
                   <dt class="text-lg leading-7">
-                    <button class="focus:outline-none flex w-full items-start justify-between text-left text-gray-400 focus:text-gray-900" @click="q8 = !q8">
+                    <button class="flex w-full items-start justify-between text-left text-gray-400 focus:text-gray-900 focus:outline-none" @click="q8 = !q8">
                       <span class="font-medium text-gray-900"> What in this course will set me above other developers doing the same thing? </span>
                       <span class="ml-6 flex h-7 items-center">
                         <svg class="h-6 w-6 transform" :class="q8 ? 'rotate-180' : 'rotate-0'" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -1021,7 +1021,7 @@ const q13 = ref(false)
               <div class="mt-6 border-t border-gray-200 pt-6">
                 <div>
                   <dt class="text-lg leading-7">
-                    <button class="focus:outline-none flex w-full items-start justify-between text-left text-gray-400 focus:text-gray-900" @click="q9 = !q9">
+                    <button class="flex w-full items-start justify-between text-left text-gray-400 focus:text-gray-900 focus:outline-none" @click="q9 = !q9">
                       <span class="font-medium text-gray-900"> Do I need to be a designer or developer to take this course? </span>
                       <span class="ml-6 flex h-7 items-center">
                         <svg class="h-6 w-6 transform" :class="q9 ? 'rotate-180' : 'rotate-0'" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -1038,7 +1038,7 @@ const q13 = ref(false)
               <div class="mt-6 border-t border-gray-200 pt-6">
                 <div>
                   <dt class="text-lg leading-7">
-                    <button class="focus:outline-none flex w-full items-start justify-between text-left text-gray-400 focus:text-gray-900" @click="q10 = !q10">
+                    <button class="flex w-full items-start justify-between text-left text-gray-400 focus:text-gray-900 focus:outline-none" @click="q10 = !q10">
                       <span class="font-medium text-gray-900"> Can I take this course with a PC, Mac, or both? </span>
                       <span class="ml-6 flex h-7 items-center">
                         <svg class="h-6 w-6 transform" :class="q10 ? 'rotate-180' : 'rotate-0'" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -1055,7 +1055,7 @@ const q13 = ref(false)
               <div class="mt-6 border-t border-gray-200 pt-6">
                 <div>
                   <dt class="text-lg leading-7">
-                    <button class="focus:outline-none flex w-full items-start justify-between text-left text-gray-400 focus:text-gray-900" @click="q11 = !q11">
+                    <button class="flex w-full items-start justify-between text-left text-gray-400 focus:text-gray-900 focus:outline-none" @click="q11 = !q11">
                       <span class="font-medium text-gray-900"> How much money can I make working remotely? </span>
                       <span class="ml-6 flex h-7 items-center">
                         <svg class="h-6 w-6 transform" :class="q11 ? 'rotate-180' : 'rotate-0'" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -1072,7 +1072,7 @@ const q13 = ref(false)
               <div class="mt-6 border-t border-gray-200 pt-6">
                 <div>
                   <dt class="text-lg leading-7">
-                    <button class="focus:outline-none flex w-full items-start justify-between text-left text-gray-400 focus:text-gray-900" @click="q12 = !q12">
+                    <button class="flex w-full items-start justify-between text-left text-gray-400 focus:text-gray-900 focus:outline-none" @click="q12 = !q12">
                       <span class="font-medium text-gray-900"> What are my other options to learn how to become a remote worker? </span>
                       <span class="ml-6 flex h-7 items-center">
                         <svg class="h-6 w-6 transform" :class="q12 ? 'rotate-180' : 'rotate-0'" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -1096,7 +1096,7 @@ const q13 = ref(false)
               <div class="mt-6 border-t border-gray-200 pt-6">
                 <div>
                   <dt class="text-lg leading-7">
-                    <button class="focus:outline-none flex w-full items-start justify-between text-left text-gray-400 focus:text-gray-900" @click="q13 = !q13">
+                    <button class="flex w-full items-start justify-between text-left text-gray-400 focus:text-gray-900 focus:outline-none" @click="q13 = !q13">
                       <span class="font-medium text-gray-900">Is there a refund policy?</span>
                       <span class="ml-6 flex h-7 items-center">
                         <svg class="h-6 w-6 transform" :class="q13 ? 'rotate-180' : 'rotate-0'" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -1125,7 +1125,7 @@ const q13 = ref(false)
         </h2>
         <div class="mt-8 flex justify-center">
           <div class="inline-flex rounded-md shadow">
-            <a class="focus:outline-none focus:shadow-outline inline-flex items-center justify-center rounded-md border border-transparent bg-secondary px-5 py-3 text-xl font-medium uppercase leading-6 text-white transition duration-150 ease-in-out hover:bg-primary" href="https://www.udemy.com/the-complete-travel-developer-course-become-a-digital-nomad/" target="_blank">Join Now</a>
+            <a class="focus:shadow-outline inline-flex items-center justify-center rounded-md border border-transparent bg-secondary px-5 py-3 text-xl font-medium uppercase leading-6 text-white transition duration-150 ease-in-out hover:bg-primary focus:outline-none" href="https://www.udemy.com/the-complete-travel-developer-course-become-a-digital-nomad/" target="_blank">Join Now</a>
           </div>
         </div>
       </div>

@@ -1,6 +1,6 @@
 # My Portfolio - [@pj_manning](https://twitter.com/pj_manning)
 
-<img src="assets/images/home/working.jpg" alt="PJ Manning" width="120" height="120" style="border-radius: 100%;" />
+<img src="public/images/home/working.jpg" alt="PJ Manning" width="120" height="120" style="border-radius: 100%;" />
 
 ## Live Site URL
 
