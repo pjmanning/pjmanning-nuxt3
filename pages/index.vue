@@ -103,7 +103,7 @@ import { LocationMarkerIcon } from '@heroicons/vue/outline'
           <div class="bg-white">
             <div class="grid grid-cols-2 gap-0.5 md:grid-cols-3 lg:mt-8">
               <a href="https://vuejs.org" target="_blank" class="group relative col-span-1 cursor-pointer flex-col justify-center bg-gray-50 py-8 px-8 text-center transition hover:bg-gray-100">
-                <nuxt-img format="webp" class="mx-auto max-h-12" src="/images/tools/vue-vector.svg" alt="VueJS" />
+                <nuxt-img class="mx-auto max-h-12" src="/images/tools/vue-vector.svg" alt="VueJS" />
                 <p class="absolute bottom-2 left-0 hidden w-full text-sm font-medium text-gray-600 group-hover:block">VueJS</p>
               </a>
               <a href="https://nuxtjs.org" target="_blank" class="group relative col-span-1 cursor-pointer flex-col justify-center bg-gray-50 py-8 px-8 text-center transition hover:bg-gray-100">
@@ -131,7 +131,7 @@ import { LocationMarkerIcon } from '@heroicons/vue/outline'
                 <p class="absolute bottom-2 left-0 hidden w-full text-sm font-medium text-gray-600 group-hover:block">Swift</p>
               </a>
               <a href="https://shopify.com" target="_blank" class="group relative col-span-1 cursor-pointer flex-col justify-center bg-gray-50 py-8 px-8 text-center transition hover:bg-gray-100">
-                <nuxt-img format="webp" class="mx-auto max-h-12" src="/images/tools/shopify.svg" alt="Shopify" />
+                <nuxt-img class="mx-auto max-h-12" src="/images/tools/shopify.svg" alt="Shopify" />
                 <p class="absolute bottom-2 left-0 hidden w-full text-sm font-medium text-gray-600 group-hover:block">Shopify</p>
               </a>
               <a href="https://stripe.com" target="_blank" class="group relative col-span-1 cursor-pointer flex-col justify-center bg-gray-50 py-8 px-8 text-center transition hover:bg-gray-100">
