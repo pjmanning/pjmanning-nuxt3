@@ -1,6 +1,6 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-  modules: ['@nuxt/content', '@nuxt/image-edge', '@nuxtjs/tailwindcss', '@vueuse/nuxt', '@nuxtjs/plausible'],
+  modules: ['@nuxt/content', 'nuxt-icon', '@nuxt/image-edge', '@nuxtjs/tailwindcss', '@vueuse/nuxt', '@nuxtjs/plausible'],
   plausible: {
     domain: 'pjmanning.dev',
   },

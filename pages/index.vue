@@ -1,6 +1,4 @@
-<script setup>
-import { LocationMarkerIcon } from '@heroicons/vue/outline'
-</script>
+<script setup></script>
 
 <template>
   <div class="mb-8">
@@ -82,7 +80,8 @@ import { LocationMarkerIcon } from '@heroicons/vue/outline'
               <nuxt-img format="webp" src="/images/balimap.png" alt="bali" class="mt-6 rounded-xl" />
             </NuxtLink>
             <p class="flex items-center justify-end space-x-2 pt-2 text-sm text-gray-500 md:text-right">
-              <LocationMarkerIcon class="h-4 w-4" />
+              <!-- <LocationMarkerIcon class="h-4 w-4" /> -->
+              <Icon name="heroicons:map-pin" size="20" />
               <span>Bali, Indonesia</span>
             </p>
           </div>

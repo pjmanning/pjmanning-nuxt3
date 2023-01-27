@@ -1,17 +1,16 @@
 <script setup>
 import { ref } from 'vue'
 import { Dialog, DialogPanel, TransitionChild, TransitionRoot } from '@headlessui/vue'
-import { LightBulbIcon, TemplateIcon, ShoppingCartIcon, ExternalLinkIcon, AtSymbolIcon, AcademicCapIcon, HomeIcon, DesktopComputerIcon, RssIcon, BookOpenIcon, TrashIcon, MenuIcon, XIcon } from '@heroicons/vue/outline'
 
 const navigation = [
-  { name: 'Home', href: '/', icon: HomeIcon, external: false },
-  { name: 'Work', href: '/work', icon: DesktopComputerIcon, external: false },
+  { name: 'Home', href: '/', icon: 'heroicons:home', external: false },
+  { name: 'Work', href: '/work', icon: 'heroicons:computer-desktop', external: false },
   //   { name: 'Courses', href: '/courses', icon: AcademicCapIcon, external: false },
   //   { name: 'Templates', href: '/templates', icon: TemplateIcon, external: false },
   //   { name: 'Products', href: '/products', icon: ShoppingCartIcon, external: false },
   //   { name: 'Blog', href: '/blog', icon: BookOpenIcon, external: false },
-  { name: 'Newsletter', href: 'https://pjmanning.beehiiv.com/subscribe', icon: RssIcon, external: true },
-  { name: 'Contact', href: '/contact', icon: AtSymbolIcon, external: false },
+  { name: 'Newsletter', href: 'https://pjmanning.beehiiv.com/subscribe', icon: 'heroicons:rss', external: true },
+  { name: 'Contact', href: '/contact', icon: 'heroicons:at-symbol', external: false },
 ]
 
 const projects = [
@@ -50,7 +49,7 @@ const sidebarOpen = ref(false)
                 <div class="absolute top-0 right-0 -mr-12 pt-2">
                   <button type="button" class="ml-1 flex h-10 w-10 items-center justify-center rounded-full focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white" @click="sidebarOpen = false">
                     <span class="sr-only">Close sidebar</span>
-                    <XIcon class="h-6 w-6 text-white" aria-hidden="true" />
+                    <Icon name="heroicons:x-mark" size="24" class="text-white" aria-hidden="true" />
                   </button>
                 </div>
               </TransitionChild>
@@ -61,20 +60,24 @@ const sidebarOpen = ref(false)
                 <nav aria-label="Sidebar" class="mt-5">
                   <div class="space-y-1 px-2">
                     <NuxtLink @click.native="sidebarOpen = false" v-for="item in navigation" :key="item.name" :href="item.href" :target="item.external ? '_blank' : ''" :class="[item.current ? 'bg-gray-100 text-gray-900' : 'text-gray-600 hover:bg-gray-50 hover:text-gray-900', 'group flex items-center rounded-md px-2 py-2 text-base font-medium']">
-                      <component :is="item.icon" :class="[item.current ? 'text-gray-500' : 'text-gray-400 group-hover:text-gray-500', 'mr-4 h-6 w-6']" aria-hidden="true" />
+                      <Icon :name="item.icon" size="24" :class="[item.current ? 'text-gray-500' : 'text-gray-400 group-hover:text-gray-500', 'mr-4 h-6 w-6']" aria-hidden="true" />
                       {{ item.name }}
                       <div v-if="item.external" class="ml-auto">
-                        <ExternalLinkIcon class="h-5 w-5" />
+                        <Icon name="heroicons:arrow-top-right-on-square-20-solid" size="20" />
                       </div>
                     </NuxtLink>
                     <p class="!mt-6 !mb-2 ml-2 text-xs font-bold uppercase text-gray-400">Projects</p>
                     <a v-for="item in projects" :key="item.name" :href="item.href" target="_blank" :class="[item.current ? 'bg-gray-200 text-gray-900' : 'text-gray-600 hover:bg-gray-50 hover:text-gray-900', 'group flex items-center rounded-md px-2 py-2 text-sm font-medium']">
                       <img :src="`/projects/${item.img}`" :alt="item.name" class="mr-3 h-6 w-6 rounded-sm" />
                       {{ item.name }}
-                      <ExternalLinkIcon class="ml-auto h-5 w-5" />
+                      <Icon name="heroicons:arrow-top-right-on-square-20-solid" size="20" class="ml-auto" />
                     </a>
+                    <NuxtLink to="/ideas" class="group flex items-center rounded-md px-2 py-2 text-sm font-medium text-gray-600 hover:bg-gray-50 hover:text-gray-900" @click.native="sidebarOpen = false">
+                      <Icon name="heroicons:light-bulb" size="24" class="mr-3 h-6 w-6 text-gray-400 group-hover:text-gray-500" aria-hidden="true" />
+                      Ideas
+                    </NuxtLink>
                     <NuxtLink to="/graveyard" class="group flex items-center rounded-md px-2 py-2 text-sm font-medium text-gray-600 hover:bg-gray-50 hover:text-gray-900" @click.native="sidebarOpen = false">
-                      <component :is="TrashIcon" class="mr-3 h-6 w-6 text-gray-400 group-hover:text-gray-500" aria-hidden="true" />
+                      <Icon name="heroicons:trash" size="24" class="mr-3 h-6 w-6 text-gray-400 group-hover:text-gray-500" aria-hidden="true" />
                       Project Graveyard
                     </NuxtLink>
                     <p class="!mt-6 !mb-2 ml-2 text-xs font-bold uppercase text-gray-400">Online</p>
@@ -123,24 +126,24 @@ const sidebarOpen = ref(false)
             <nav class="mt-5 flex-1" aria-label="Sidebar">
               <div class="space-y-[0.5] px-2">
                 <NuxtLink v-for="item in navigation" :key="item.name" :href="item.href" :target="item.external ? '_blank' : ''" class="group flex items-center rounded-md px-2 py-2 text-sm font-medium text-gray-600 hover:bg-gray-50 hover:text-gray-900">
-                  <component :is="item.icon" class="mr-3 h-6 w-6 text-gray-400 group-hover:text-gray-500" aria-hidden="true" />
+                  <Icon :name="item.icon" size="24" class="mr-3 h-6 w-6 text-gray-400 group-hover:text-gray-500" aria-hidden="true" />
                   {{ item.name }}
                   <div v-if="item.external" class="ml-auto">
-                    <ExternalLinkIcon class="h-5 w-5" />
+                    <Icon name="heroicons:arrow-top-right-on-square-20-solid" size="20" />
                   </div>
                 </NuxtLink>
                 <p class="!mt-6 !mb-2 ml-2 text-xs font-bold uppercase text-gray-400">Projects</p>
                 <a v-for="item in projects" :key="item.name" :href="item.href" target="_blank" :class="[item.current ? 'bg-gray-200 text-gray-900' : 'text-gray-600 hover:bg-gray-50 hover:text-gray-900', 'group flex items-center rounded-md px-2 py-2 text-sm font-medium']">
                   <img :src="`/projects/${item.img}`" :alt="item.name" class="mr-3 h-6 w-6 rounded-sm" />
                   {{ item.name }}
-                  <ExternalLinkIcon class="ml-auto h-5 w-5" />
+                  <Icon name="heroicons:arrow-top-right-on-square-20-solid" size="20" class="ml-auto" />
                 </a>
                 <NuxtLink to="/ideas" class="group flex items-center rounded-md px-2 py-2 text-sm font-medium text-gray-600 hover:bg-gray-50 hover:text-gray-900">
-                  <component :is="LightBulbIcon" class="mr-3 h-6 w-6 text-gray-400 group-hover:text-gray-500" aria-hidden="true" />
+                  <Icon name="heroicons:light-bulb" size="24" class="mr-3 h-6 w-6 text-gray-400 group-hover:text-gray-500" aria-hidden="true" />
                   Ideas
                 </NuxtLink>
                 <NuxtLink to="/graveyard" class="group flex items-center rounded-md px-2 py-2 text-sm font-medium text-gray-600 hover:bg-gray-50 hover:text-gray-900">
-                  <component :is="TrashIcon" class="mr-3 h-6 w-6 text-gray-400 group-hover:text-gray-500" aria-hidden="true" />
+                  <Icon name="heroicons:trash" size="24" class="mr-3 h-6 w-6 text-gray-400 group-hover:text-gray-500" aria-hidden="true" />
                   Graveyard
                 </NuxtLink>
                 <p class="!mt-6 !mb-2 ml-2 text-xs font-bold uppercase text-gray-400">Online</p>
@@ -178,7 +181,7 @@ const sidebarOpen = ref(false)
           <div>
             <button type="button" class="-mr-3 inline-flex h-12 w-12 items-center justify-center rounded-md text-gray-500 hover:text-gray-900" @click="sidebarOpen = true">
               <span class="sr-only">Open sidebar</span>
-              <MenuIcon class="h-6 w-6" aria-hidden="true" />
+              <Icon name="heroicons:bars-3" size="24" aria-hidden="true" />
             </button>
           </div>
         </div>
