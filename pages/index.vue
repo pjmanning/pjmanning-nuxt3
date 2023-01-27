@@ -77,7 +77,7 @@
           <!-- map -->
           <div>
             <NuxtLink to="https://www.google.com/maps/place/Keramas,+Blahbatuh,+Gianyar+Regency,+Bali/@-8.5853879,115.3177538,15z/data=!3m1!4b1!4m5!3m4!1s0x2dd215b460c4f7cb:0x5030bfbca830f00!8m2!3d-8.5743534!4d115.32228" target="_blank">
-              <nuxt-img format="webp" src="/images/balimap.png" alt="bali" class="mt-6 rounded-xl" />
+              <nuxt-img loading="lazy" format="webp" src="/images/balimap.png" alt="bali" class="mt-6 rounded-xl" />
             </NuxtLink>
             <p class="flex items-center justify-end space-x-2 pt-2 text-sm text-gray-500 md:text-right">
               <!-- <LocationMarkerIcon class="h-4 w-4" /> -->
@@ -102,39 +102,39 @@
           <div class="bg-white">
             <div class="grid grid-cols-2 gap-0.5 md:grid-cols-3 lg:mt-8">
               <a href="https://vuejs.org" target="_blank" class="group relative col-span-1 cursor-pointer flex-col justify-center bg-gray-50 py-8 px-8 text-center transition hover:bg-gray-100">
-                <nuxt-img class="mx-auto max-h-12" src="/images/tools/vue-vector.svg" alt="VueJS" />
+                <nuxt-img loading="lazy" class="mx-auto max-h-12" src="/images/tools/vue-vector.svg" alt="VueJS" />
                 <p class="absolute bottom-2 left-0 hidden w-full text-sm font-medium text-gray-600 group-hover:block">VueJS</p>
               </a>
               <a href="https://nuxtjs.org" target="_blank" class="group relative col-span-1 cursor-pointer flex-col justify-center bg-gray-50 py-8 px-8 text-center transition hover:bg-gray-100">
-                <nuxt-img format="webp" class="mx-auto max-h-14" src="/images/tools/nuxt.png" alt="NuxtJS" />
+                <nuxt-img loading="lazy" format="webp" class="mx-auto max-h-14" src="/images/tools/nuxt.png" alt="NuxtJS" />
                 <p class="absolute bottom-2 left-0 hidden w-full text-sm font-medium text-gray-600 group-hover:block">NuxtJS</p>
               </a>
               <a href="https://tailwindcss.com" target="_blank" class="group relative col-span-1 cursor-pointer flex-col justify-center bg-gray-50 py-8 px-8 text-center transition hover:bg-gray-100">
-                <nuxt-img format="webp" class="mx-auto max-h-12" src="/images/tools/tailwind.png" alt="TailwindCSS" />
+                <nuxt-img loading="lazy" format="webp" class="mx-auto max-h-12" src="/images/tools/tailwind.png" alt="TailwindCSS" />
                 <p class="absolute bottom-2 left-0 hidden w-full text-sm font-medium text-gray-600 group-hover:block">TailwindCSS</p>
               </a>
               <a href="https://figma.com" target="_blank" class="group relative col-span-1 cursor-pointer flex-col justify-center bg-gray-50 py-8 px-8 text-center transition hover:bg-gray-100">
-                <nuxt-img format="webp" class="mx-auto max-h-12" src="/images/tools/figma.png" alt="Figma" />
+                <nuxt-img loading="lazy" format="webp" class="mx-auto max-h-12" src="/images/tools/figma.png" alt="Figma" />
                 <p class="absolute bottom-2 left-0 hidden w-full text-sm font-medium text-gray-600 group-hover:block">Figma</p>
               </a>
               <a href="https://firebase.google.com" target="_blank" class="group relative col-span-1 cursor-pointer flex-col justify-center bg-gray-50 py-8 px-8 text-center transition hover:bg-gray-100">
-                <nuxt-img format="webp" class="mx-auto max-h-12" src="/images/tools/firebase.png" alt="Firebase" />
+                <nuxt-img loading="lazy" format="webp" class="mx-auto max-h-12" src="/images/tools/firebase.png" alt="Firebase" />
                 <p class="absolute bottom-2 left-0 hidden w-full text-sm font-medium text-gray-600 group-hover:block">Firebase</p>
               </a>
               <a href="https://supabase.com" target="_blank" class="group relative col-span-1 cursor-pointer flex-col justify-center bg-gray-50 py-8 px-8 text-center transition hover:bg-gray-100">
-                <nuxt-img format="webp" class="mx-auto max-h-12" src="/images/tools/supabase.png" alt="Supabase" />
+                <nuxt-img loading="lazy" format="webp" class="mx-auto max-h-12" src="/images/tools/supabase.png" alt="Supabase" />
                 <p class="absolute bottom-2 left-0 hidden w-full text-sm font-medium text-gray-600 group-hover:block">Supabase</p>
               </a>
               <a href="https://developer.apple.com/swift/" target="_blank" class="group relative col-span-1 cursor-pointer flex-col justify-center bg-gray-50 py-8 px-8 text-center transition hover:bg-gray-100">
-                <nuxt-img format="webp" class="mx-auto max-h-12" src="/images/tools/swift.png" alt="Swift" />
+                <nuxt-img loading="lazy" format="webp" class="mx-auto max-h-12" src="/images/tools/swift.png" alt="Swift" />
                 <p class="absolute bottom-2 left-0 hidden w-full text-sm font-medium text-gray-600 group-hover:block">Swift</p>
               </a>
               <a href="https://shopify.com" target="_blank" class="group relative col-span-1 cursor-pointer flex-col justify-center bg-gray-50 py-8 px-8 text-center transition hover:bg-gray-100">
-                <nuxt-img class="mx-auto max-h-12" src="/images/tools/shopify.svg" alt="Shopify" />
+                <nuxt-img loading="lazy" class="mx-auto max-h-12" src="/images/tools/shopify.svg" alt="Shopify" />
                 <p class="absolute bottom-2 left-0 hidden w-full text-sm font-medium text-gray-600 group-hover:block">Shopify</p>
               </a>
               <a href="https://stripe.com" target="_blank" class="group relative col-span-1 cursor-pointer flex-col justify-center bg-gray-50 py-8 px-8 text-center transition hover:bg-gray-100">
-                <nuxt-img format="webp" class="mx-auto max-h-12" src="/images/tools/stripe.png" alt="Stripe" />
+                <nuxt-img loading="lazy" format="webp" class="mx-auto max-h-12" src="/images/tools/stripe.png" alt="Stripe" />
                 <p class="absolute bottom-2 left-0 hidden w-full text-sm font-medium text-gray-600 group-hover:block">Stripe</p>
               </a>
               <!-- Sanity  -->
