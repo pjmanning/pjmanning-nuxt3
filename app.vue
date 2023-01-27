@@ -99,7 +99,7 @@ const sidebarOpen = ref(false)
                       <nuxt-img format="webp" height="40px" width="40px" src="/images/home/meSmallCircle.png" alt="PJ Manning" class="inline-block h-10 w-10 rounded-full" />
                     </div>
                     <div class="ml-3">
-                      <p class="text-base font-medium text-gray-700 group-hover:text-gray-900">PJ Manning</p>
+                      <p class="text-base font-medium text-gray-700 group-hover:text-gray-900">Phil Manning</p>
                       <p class="text-sm font-medium text-gray-500 group-hover:text-gray-700">Contact Me</p>
                     </div>
                   </div>
@@ -163,7 +163,7 @@ const sidebarOpen = ref(false)
               <div class="flex items-center !bg-gray-100">
                 <div><nuxt-img format="webp" class="inline-block h-9 w-9 rounded-full" src="/images/home/meSmallCircle.png" alt="PJ Manning" /></div>
                 <div class="ml-3">
-                  <p class="text-sm font-medium text-gray-700 group-hover:text-gray-900">PJ Manning</p>
+                  <p class="text-sm font-medium text-gray-700 group-hover:text-gray-900">Phil Manning</p>
                   <p class="text-xs font-medium text-gray-500 group-hover:text-gray-700">Contact Me</p>
                 </div>
               </div>

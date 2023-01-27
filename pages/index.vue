@@ -10,7 +10,7 @@
         <!-- header  -->
         <div class="flex justify-between">
           <div class="pr-8">
-            <h2 class="text-3xl font-extrabold leading-9 tracking-tight text-gray-900 sm:text-3xl sm:leading-10">Hey, I'm PJ. I&nbsp;build&nbsp;stuff.</h2>
+            <h2 class="text-3xl font-extrabold leading-9 tracking-tight text-gray-900 sm:text-3xl sm:leading-10">Hey, I'm Phil. I&nbsp;build&nbsp;stuff.</h2>
             <p class="mt-3 max-w-2xl text-lg font-medium leading-7 text-sky-600 sm:mt-4">and spend a lot of time in the water...</p>
             <div class="mt-12 h-px w-16 rounded bg-gray-300"></div>
           </div>
