@@ -1,5 +1,4 @@
 <script setup>
-import { ref } from 'vue'
 import { Dialog, DialogPanel, TransitionChild, TransitionRoot } from '@headlessui/vue'
 
 const navigation = [
@@ -10,12 +9,13 @@ const navigation = [
   //   { name: 'Products', href: '/products', icon: ShoppingCartIcon, external: false },
   //   { name: 'Blog', href: '/blog', icon: BookOpenIcon, external: false },
   { name: 'Newsletter', href: 'https://pjmanning.beehiiv.com/subscribe', icon: 'heroicons:rss', external: true },
+  { name: 'Resume', href: 'https://standardresume.co/r/philmanning', icon: 'heroicons:document-text', external: true },
   { name: 'Contact', href: '/contact', icon: 'heroicons:at-symbol', external: false },
 ]
 
 const projects = [
-  { name: 'Glassy', href: 'https://glassy.so', img: 'glassy-logo-whitebg.png' },
   { name: 'SwellPirate', href: 'https://swellpirate.com', img: 'swellpirate-logo.png' },
+  { name: 'Glassy', href: 'https://glassy.so', img: 'glassy-logo-whitebg.png' },
   { name: 'Animali', href: 'https://animali.life/', img: 'animali-logo.png' },
   { name: '#startsmall', href: 'https://startsmall.llc/', img: 'startsmall-logo.jpg' },
   { name: "Nana's Recipes", href: 'https://apps.apple.com/app/nana-scoppetuolos-recipes/id1012100193?l=id', img: 'nanasrecipes-logo.png' },
