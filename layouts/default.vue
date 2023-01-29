@@ -32,6 +32,12 @@ const socials = [
 ]
 
 const sidebarOpen = ref(false)
+
+const router = useRouter()
+router.afterEach(() => {
+  const main = document.querySelector('main')
+  main.scrollTop = 0
+})
 </script>
 
 <template>
@@ -117,7 +123,7 @@ const sidebarOpen = ref(false)
     <!-- Static sidebar for desktop -->
     <div class="hidden lg:flex lg:flex-shrink-0">
       <div class="flex w-64 flex-col">
-        <!-- Sidebar component, swap this element with another sidebar if you like -->
+        <!-- Sidebar component -->
         <div class="flex min-h-0 flex-1 flex-col border-r border-gray-200 bg-gray-100">
           <div class="flex flex-1 flex-col overflow-y-auto pt-5 pb-4">
             <div class="flex flex-shrink-0 items-center px-4">
@@ -186,7 +192,7 @@ const sidebarOpen = ref(false)
           </div>
         </div>
       </div>
-      <div class="relative z-0 flex flex-1 overflow-hidden">
+      <div class="relative z-0 flex flex-1 overflow-y-scroll">
         <main class="relative z-0 flex-1 overflow-y-auto focus:outline-none xl:order-last">
           <!-- Start main area-->
           <div class="inset-0 py-6 px-4 sm:px-6 lg:px-8">
