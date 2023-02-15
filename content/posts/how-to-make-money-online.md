@@ -16,7 +16,7 @@ or
 
 **B)** uhhh honestly, I don't know what the hell you're doing.
 
-**_...It's 2018!_** And over [\$1.2 million a year is made every 30 seconds](http://www.adweek.com/digital/real-time-ecommerce/)...in e-commerce alone!
+**_...It's 2023!_** And over [\$1.2 million a year is made every 30 seconds](http://www.adweek.com/digital/real-time-ecommerce/)...in e-commerce alone!
 
 But if you're here and reading this article I don't need to tell you all the statistics. You already know [college isn't worth it](https://www.youtube.com/watch?v=9KNncIXdt6w) and you want to learn how to make money online.
 
