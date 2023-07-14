@@ -4,16 +4,18 @@ import { Dialog, DialogPanel, TransitionChild, TransitionRoot } from '@headlessu
 const navigation = [
   { name: 'Home', href: '/', icon: 'heroicons:home', external: false },
   { name: 'Work', href: '/work', icon: 'heroicons:computer-desktop', external: false },
-  //   { name: 'Courses', href: '/courses', icon: AcademicCapIcon, external: false },
-  //   { name: 'Templates', href: '/templates', icon: TemplateIcon, external: false },
+  //   { name: 'Courses', href: '/courses', icon: 'heroicons:academic-cap', external: false },
+  //   { name: 'Templates', href: '/templates', icon: 'heroicons:code-bracket', external: false },
   //   { name: 'Products', href: '/products', icon: ShoppingCartIcon, external: false },
   //   { name: 'Blog', href: '/blog', icon: BookOpenIcon, external: false },
   { name: 'Newsletter', href: 'https://pjmanning.beehiiv.com/subscribe', icon: 'heroicons:rss', external: true },
   { name: 'Resume', href: 'https://standardresume.co/r/philmanning', icon: 'heroicons:document-text', external: true },
+  { name: 'Hire Me', href: 'https://traveldeveloper.com', icon: 'heroicons:user-plus', external: true },
   { name: 'Contact', href: '/contact', icon: 'heroicons:at-symbol', external: false },
 ]
 
 const projects = [
+  { name: 'TravelDeveloper', href: 'https://traveldeveloper.com', img: 'traveldeveloper-logo.png' },
   { name: 'SwellPirate', href: 'https://swellpirate.com', img: 'swellpirate-logo.png' },
   { name: 'Glassy', href: 'https://glassy.so', img: 'glassy-logo-whitebg.png' },
   { name: 'Animali', href: 'https://animali.life/', img: 'animali-logo.png' },

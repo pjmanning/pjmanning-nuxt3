@@ -9,6 +9,7 @@
   "devDependencies": {
     "@headlessui/vue": "^1.6.4",
     "@nuxt/content": "^2.4.1",
+    "@nuxt/devtools": "^0.2.5",
     "@nuxt/image-edge": "1.0.0-27907872.f4dd19d",
     "@nuxtjs/plausible": "^0.2.0",
     "@nuxtjs/tailwindcss": "^6.3.0",
