@@ -17,7 +17,7 @@ const navigation = [
 const projects = [
   { name: 'TravelDeveloper', href: 'https://traveldeveloper.com', img: 'traveldeveloper-logo.png' },
   { name: 'SwellPirate', href: 'https://swellpirate.com', img: 'swellpirate-logo.png' },
-  { name: 'Glassy', href: 'https://glassy.so', img: 'glassy-logo-whitebg.png' },
+  { name: 'Glassy', href: 'https://glassy.company', img: 'glassy-logo-whitebg.png' },
   { name: 'Animali', href: 'https://animali.life/', img: 'animali-logo.png' },
   { name: '#startsmall', href: 'https://startsmall.llc/', img: 'startsmall-logo.jpg' },
   { name: "Nana's Recipes", href: 'https://apps.apple.com/app/nana-scoppetuolos-recipes/id1012100193?l=id', img: 'nanasrecipes-logo.png' },
