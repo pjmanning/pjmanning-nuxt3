@@ -1,9 +1,16 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-  modules: ['@nuxt/devtools', '@nuxt/content', 'nuxt-icon', '@nuxtjs/tailwindcss', '@vueuse/nuxt', '@nuxtjs/plausible', "@nuxt/image"],
+  modules: ['@nuxt/devtools', '@nuxt/content', 'nuxt-icon', '@nuxtjs/tailwindcss', '@vueuse/nuxt', '@nuxtjs/plausible', "@nuxt/image", 'nuxt-posthog'],
+
   plausible: {
     domain: 'pjmanning.dev',
   },
+
+  posthog: {
+    publicKey: 'phc_usiTt5fmNhl6bpx1iCHTI9BNWFZvlVpRFidjx5oQb2f',
+    host: 'https://us.i.posthog.com'
+  },
+
   app: {
     head: {
       title: 'PJ Manning | Developer && UX Designer',
@@ -85,4 +92,6 @@ export default defineNuxtConfig({
       ],
     },
   },
+
+  compatibilityDate: '2024-12-10',
 })
