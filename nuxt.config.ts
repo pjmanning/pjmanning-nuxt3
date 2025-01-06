@@ -1,6 +1,6 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-  modules: ['@nuxt/devtools', '@nuxt/content', 'nuxt-icon', '@nuxtjs/tailwindcss', '@vueuse/nuxt', '@nuxtjs/plausible', "@nuxt/image", 'nuxt-posthog'],
+  modules: ['@nuxt/devtools', '@nuxt/content', 'nuxt-icon', '@nuxtjs/tailwindcss', '@vueuse/nuxt', '@nuxtjs/plausible', '@nuxt/image', 'nuxt-posthog'],
 
   plausible: {
     domain: 'pjmanning.dev',
@@ -8,7 +8,7 @@ export default defineNuxtConfig({
 
   posthog: {
     publicKey: 'phc_usiTt5fmNhl6bpx1iCHTI9BNWFZvlVpRFidjx5oQb2f',
-    host: 'https://us.i.posthog.com'
+    host: 'https://us.i.posthog.com',
   },
 
   app: {
@@ -90,6 +90,7 @@ export default defineNuxtConfig({
           href: 'https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap',
         },
       ],
+      script: [{ src: 'https://assets.onedollarstats.com/tracker.js', defer: true, 'data-site-id': 'pjmanning.dev' }],
     },
   },
 
