@@ -9,7 +9,7 @@
         <p class="mt-3 max-w-4xl text-lg leading-7 text-gray-500 sm:mt-4">Coming soon...</p>
         <p class="mt-3 text-lg font-semibold leading-7 text-gray-500 sm:mt-4">
           Follow me for updates
-          <a href="https://twitter.com/pj_manning" target="_blank" class="text-secondary">@pj_manning</a>
+          <a href="https://x.com/pj_manning" target="_blank" class="text-secondary">@pj_manning</a>
         </p>
         <div class="mt-12 h-px w-16 rounded bg-gray-300"></div>
         <!-- <p class="max-w-4xl mx-auto mt-3 text-lg font-semibold leading-7 text-gray-500 sm:mt-4">Updated: January 7, 2021</p> -->

@@ -50,7 +50,7 @@ With these three languages you can practically create any website your heart des
 
 #### 3) Learn a Backend Language - [Ruby](https://www.ruby-lang.org/en/), [Python](https://www.python.org/)
 
-Backend languages (or server-side languages) are meant to help you communicate with your backend/server to provide dynamic data in your web apps. For example, apps like Twitter, Facebook, Airbnb, Netflix and more.
+Backend languages (or server-side languages) are meant to help you communicate with your backend/server to provide dynamic data in your web apps. For example, apps like X, Facebook, Airbnb, Netflix and more.
 
 There are plenty of languages out there, but I think 2 of the easiest and most fun are Ruby and Python. They both have frameworks ([Ruby on Rails](https://rubyonrails.org/) & [Django](https://www.djangoproject.com/)) that allow for easy and quick creation of fully functional web apps.
 

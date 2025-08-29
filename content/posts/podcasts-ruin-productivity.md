@@ -83,4 +83,4 @@ And hell, I'll even be willing to **pay more 💰** to get back my time.
 
 _**Over n out...**_
 
-### [_PJ Manning_](https://twitter.com/pj_manning)
+### [_PJ Manning_](https://x.com/pj_manning)

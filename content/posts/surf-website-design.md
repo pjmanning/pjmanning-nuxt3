@@ -28,4 +28,4 @@ We also specialize in building high-quality iOS Designs and applications using t
 
 <p style="text-align:center;"><a href="https://itunes.apple.com/us/app/surf-estate/id898021232?mt=8" target="_blank"">Surf Estate</a></p>
 
-Contact me for more information regarding prices and availability or follow me on Twitter [@pj_manning](https://twitter.com/pj_manning)
+Contact me for more information regarding prices and availability or follow me on X [@pj_manning](https://x.com/pj_manning)

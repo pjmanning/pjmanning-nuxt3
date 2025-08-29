@@ -26,7 +26,7 @@ So naturally, I enlisted my private investigation team to do some more research 
 
 -   Google
 -   Facebook
--   Twitter
+-   X
 -   etc…
 
 Through my **extensive** research/stalking — I came to the educated decision that Ben seemed like a _‘good dude’_ (and I don’t use _‘good dude’_ often).

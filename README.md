@@ -1,4 +1,4 @@
-# My Portfolio - [@pj_manning](https://twitter.com/pj_manning)
+# My Portfolio - [@pj_manning](https://x.com/pj_manning)
 
 <img src="public/images/home/working.jpg" alt="PJ Manning" width="120" height="120" style="border-radius: 100%;" />
 
@@ -27,4 +27,4 @@
 
 ## Contact
 
-PJ Manning - [@pj_manning](https://twitter.com/pj_manning)
+PJ Manning - [@pj_manning](https://x.com/pj_manning)

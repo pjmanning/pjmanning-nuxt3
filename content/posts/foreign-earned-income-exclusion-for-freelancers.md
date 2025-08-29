@@ -45,4 +45,4 @@ To put it into perspective, we will provide an example. You are a self-employed 
 
 For more info on the FEIE and other expat tax services, visit...[ProtaxConsulting](https://protaxconsulting.com/).
 
-You can also find them on [Facebook](https://www.facebook.com/Protaxconsulting/) and [Twitter](https://twitter.com/protaxconsult).
+You can also find them on [Facebook](https://www.facebook.com/Protaxconsulting/) and [X](https://x.com/protaxconsult).

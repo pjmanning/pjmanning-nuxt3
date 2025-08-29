@@ -180,6 +180,6 @@ Instead of grabbing a client for a simple design value of $1,000 you're able to 
 
 Want more info?...
 
-Follow me on twitter <a href="https://twitter.com/pj_manning" target="_blank">@pj_manning</a>
+Follow me on X <a href="https://x.com/pj_manning" target="_blank">@pj_manning</a>
 
 <!-- <a href="https://www.buymeacoffee.com/csDuFKC" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-blue.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a> -->

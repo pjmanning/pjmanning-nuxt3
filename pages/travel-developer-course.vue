@@ -66,7 +66,7 @@ const q13 = ref(false)
                   <nuxt-link to="/" aria-label="Home">
                     <nuxt-img format="webp" class="h-12 w-auto" src="/images/td-logo-circle.png" alt="travel developer" />
                   </nuxt-link>
-                  <div class="-mr-2 flex hidden items-center">
+                  <div class="-mr-2 flex items-center">
                     <button id="main-menu" class="inline-flex items-center justify-center rounded-md p-2 text-gray-400 transition duration-150 ease-in-out hover:bg-gray-100 hover:text-gray-500 focus:bg-gray-100 focus:text-gray-500 focus:outline-none" type="button" aria-label="Main menu" aria-haspopup="true">
                       <svg class="h-6 w-6" stroke="currentColor" fill="none" viewBox="0 0 24 24">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
@@ -358,7 +358,7 @@ const q13 = ref(false)
           <p class="text-base font-semibold uppercase leading-6 tracking-wide text-secondary">Blueprint to Becoming a Profitable Freelancer</p>
           <h1 class="mt-2 mb-8 text-3xl font-extrabold leading-8 tracking-tight text-gray-900 sm:text-4xl sm:leading-10">
             How to Work Remotely with
-            <a href="https://twitter.com/pj_manning" target="_blank" class="text-secondary">PJ Manning</a>
+            <a href="https://x.com/pj_manning" target="_blank" class="text-secondary">PJ Manning</a>
           </h1>
         </div>
         <div class="lg:grid lg:grid-cols-2 lg:gap-8">
@@ -373,7 +373,7 @@ const q13 = ref(false)
             </svg>
             <div class="relative mx-auto max-w-prose text-base lg:max-w-none">
               <figure>
-                <a href="https://twitter.com/pj_manning" target="_blank" class="pb-7/12 relative lg:pb-0">
+                <a href="https://x.com/pj_manning" target="_blank" class="pb-7/12 relative lg:pb-0">
                   <nuxt-img format="webp" class="absolute inset-0 h-full w-full rounded-lg object-cover object-center shadow-lg lg:static lg:ml-24 lg:-mt-8 lg:h-auto lg:w-3/5" src="/images/meMedium.jpg" alt="pjmanning" />
                 </a>
               </figure>
@@ -382,7 +382,7 @@ const q13 = ref(false)
           <div>
             <div class="mx-auto max-w-prose text-base lg:max-w-none">
               <p class="mb-5 text-lg leading-7 text-gray-500">
-                <a href="https://twitter.com/pj_manning" target="_blank" class="text-secondary">PJ Manning</a>
+                <a href="https://x.com/pj_manning" target="_blank" class="text-secondary">PJ Manning</a>
                 is a self-taught, full-stack developer and small-business consultant. Over the past 6 years, he has worked with 30+ businesses creating websites and iOS applications while also providing business consultant services from SEO and digital marketing to strategy and pricing. He has a unique perspective having worked with boutique hotels in Costa Rica, to the fastest growing e-commerce website in the world.
               </p>
             </div>

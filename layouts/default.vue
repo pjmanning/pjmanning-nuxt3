@@ -15,17 +15,18 @@ const navigation = [
 ]
 
 const projects = [
-  { name: 'TravelDeveloper', href: 'https://traveldeveloper.com', img: 'traveldeveloper-logo.png' },
-  { name: 'SwellPirate', href: 'https://swellpirate.com', img: 'swellpirate-logo.png' },
-  { name: 'Glassy', href: 'https://glassy.company', img: 'glassy-logo-whitebg.png' },
-  { name: 'Animali', href: 'https://animali.life/', img: 'animali-logo.png' },
-  { name: '#startsmall', href: 'https://startsmall.llc/', img: 'startsmall-logo.jpg' },
-  { name: "Nana's Recipes", href: 'https://apps.apple.com/app/nana-scoppetuolos-recipes/id1012100193?l=id', img: 'nanasrecipes-logo.png' },
-  { name: 'DeFacebookMe', href: 'https://defacebookme.com', img: 'defacebookme.svg' },
+  { name: 'Wellness Waves', href: 'https://wellnesswavesapp.com', img: 'https://www.google.com/s2/favicons?domain=wellnesswavesapp.com&sz=24' },
+  { name: 'SwellPirate', href: 'https://swellpirate.com', img: 'https://www.google.com/s2/favicons?domain=swellpirate.com&sz=24' },
+  { name: 'TravelDeveloper', href: 'https://traveldeveloper.com', img: 'https://www.google.com/s2/favicons?domain=traveldeveloper.com&sz=24' },
+  // { name: 'Glassy', href: 'https://glassy.company', img: 'glassy-logo-whitebg.png' },
+  // { name: 'Animali', href: 'https://animali.life/', img: 'animali-logo.png' },
+  // { name: '#startsmall', href: 'https://startsmall.llc/', img: 'startsmall-logo.jpg' },
+  // { name: "Nana's Recipes", href: 'https://apps.apple.com/app/nana-scoppetuolos-recipes/id1012100193?l=id', img: 'nanasrecipes-logo.png' },
+  // { name: 'DeFacebookMe', href: 'https://defacebookme.com', img: 'defacebookme.svg' },
 ]
 
 const socials = [
-  { name: 'Twitter', href: 'https://twitter.com/pj_manning', img: 'twitter.svg' },
+  { name: '@pj_manning', href: 'https://x.com/pj_manning', img: 'x.svg' },
   { name: 'Github', href: 'https://github.com/pjmanning', img: 'github.svg' },
   { name: 'YouTube', href: 'https://www.youtube.com/channel/UCX0zkbdpllaa3h-OZsJhSLQ', img: 'youtube.svg' },
   { name: 'Behance', href: 'https://www.behance.net/philmanning', img: 'behance.svg' },
@@ -74,9 +75,9 @@ router.afterEach(() => {
                         <Icon name="heroicons:arrow-top-right-on-square-20-solid" size="20" />
                       </div>
                     </NuxtLink>
-                    <p class="!mt-6 !mb-2 ml-2 text-xs font-bold uppercase text-gray-400">Projects</p>
+                    <p class="!mt-6 !mb-2 ml-2 text-xs font-bold uppercase text-gray-400">Active Projects</p>
                     <a v-for="item in projects" :key="item.name" :href="item.href" target="_blank" :class="[item.current ? 'bg-gray-200 text-gray-900' : 'text-gray-600 hover:bg-gray-50 hover:text-gray-900', 'group flex items-center rounded-md px-2 py-2 text-sm font-medium']">
-                      <img :src="`/projects/${item.img}`" :alt="item.name" class="mr-3 h-6 w-6 rounded-sm" />
+                      <img :src="item.img" :alt="item.name" class="mr-3 h-6 w-6 rounded-sm" />
                       {{ item.name }}
                       <Icon name="heroicons:arrow-top-right-on-square-20-solid" size="20" class="ml-auto" />
                     </a>
@@ -140,9 +141,9 @@ router.afterEach(() => {
                     <Icon name="heroicons:arrow-top-right-on-square-20-solid" size="20" />
                   </div>
                 </NuxtLink>
-                <p class="!mt-6 !mb-2 ml-2 text-xs font-bold uppercase text-gray-400">Projects</p>
+                <p class="!mt-6 !mb-2 ml-2 text-xs font-bold uppercase text-gray-400">Active Projects</p>
                 <a v-for="item in projects" :key="item.name" :href="item.href" target="_blank" :class="[item.current ? 'bg-gray-200 text-gray-900' : 'text-gray-600 hover:bg-gray-50 hover:text-gray-900', 'group flex items-center rounded-md px-2 py-2 text-sm font-medium']">
-                  <img :src="`/projects/${item.img}`" :alt="item.name" class="mr-3 h-6 w-6 rounded-sm" />
+                  <img :src="item.img" :alt="item.name" class="mr-3 h-6 w-6 rounded-sm" />
                   {{ item.name }}
                   <Icon name="heroicons:arrow-top-right-on-square-20-solid" size="20" class="ml-auto" />
                 </a>

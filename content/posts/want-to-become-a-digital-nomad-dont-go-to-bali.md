@@ -89,4 +89,4 @@ After you learn the swing of things — then I suggest you go to Bali. And enjoy
 
 ### Keep in touch
 
-### [PJ Manning](https://twitter.com/pj_manning)
+### [PJ Manning](https://x.com/pj_manning)

@@ -112,4 +112,4 @@ Go to the [East Bali Coronavirus GoFundMe](https://www.gofundme.com/f/east-bali-
 
 **Suksma (Thank you!)** 🙏
 
-[**PJ Manning**](https://twitter.com/pj_manning)
+[**PJ Manning**](https://x.com/pj_manning)

@@ -65,4 +65,4 @@ But in the meantime, let the games begin...
 
 _**Frothing mate...**_
 
-### [_PJ Manning_](https://twitter.com/pj_manning)
+### [_PJ Manning_](https://x.com/pj_manning)

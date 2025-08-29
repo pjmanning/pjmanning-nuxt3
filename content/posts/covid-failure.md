@@ -113,4 +113,4 @@ But if I learned anything - it's to be OK with things not turning out the wa
 
 ---
 
-Please help keep me accountable ;) and I'll help keep you accountable too. Give me a shout on twitter and what you're working on [@pj_manning](https://twitter.com/pj_manning)
+Please help keep me accountable ;) and I'll help keep you accountable too. Give me a shout on X and what you're working on [@pj_manning](https://x.com/pj_manning)
