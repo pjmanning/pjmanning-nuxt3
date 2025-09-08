@@ -18,6 +18,7 @@ const projects = [
   { name: 'Wellness Waves', href: 'https://wellnesswavesapp.com', img: 'https://www.google.com/s2/favicons?domain=wellnesswavesapp.com&sz=24' },
   { name: 'SwellPirate', href: 'https://swellpirate.com', img: 'https://www.google.com/s2/favicons?domain=swellpirate.com&sz=24' },
   { name: 'TravelDeveloper', href: 'https://traveldeveloper.com', img: 'https://www.google.com/s2/favicons?domain=traveldeveloper.com&sz=24' },
+  { name: 'SwiftUI Template', href: 'https://swiftuitemplate.com', img: 'https://www.google.com/s2/favicons?domain=swiftuitemplate.com&sz=24' },
   // { name: 'Glassy', href: 'https://glassy.company', img: 'glassy-logo-whitebg.png' },
   // { name: 'Animali', href: 'https://animali.life/', img: 'animali-logo.png' },
   // { name: '#startsmall', href: 'https://startsmall.llc/', img: 'startsmall-logo.jpg' },
